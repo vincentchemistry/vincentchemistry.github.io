@@ -5,10 +5,8 @@ subtitle: Molecular Recognition and Supramolecular Chemistry at USF
 permalink: /
 ---
 
+# Welcome to the Liu Research Group
 
-# vincentchemistry's Website
-
-Welcome to the Liu Research Group at the University of South Florida!  
 We design and study synthetic receptors for molecular recognition in water, with applications in health, energy, and environmental sustainability.
 
 {% include section.html %}
@@ -16,18 +14,16 @@ We design and study synthetic receptors for molecular recognition in water, with
 ## Highlights
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our group investigates synthetic receptors that operate in water using hydrogen bonding, electrostatic interactions, and other tunable noncovalent forces.
 
 {%
   include button.html
-  link="research"
+  link="publications"
   text="See our publications"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
 %}
-
 {% endcapture %}
 
 {%
@@ -39,8 +35,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 %}
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Explore our ongoing efforts to tackle challenges in sensing, separations, and catalysis through supramolecular chemistry.
 
 {%
   include button.html
@@ -50,7 +45,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   flip=true
   style="bare"
 %}
-
 {% endcapture %}
 
 {%
@@ -64,8 +58,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 %}
 
 {% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We are a vibrant team of students, postdocs, and collaborators based at USF Chemistry.
 
 {%
   include button.html
@@ -75,7 +68,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
   flip=true
   style="bare"
 %}
-
 {% endcapture %}
 
 {%
