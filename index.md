@@ -3,7 +3,8 @@
 
 # vincentchemistry's Website
 
-An engaging 1-3 sentence description of your lab.
+Welcome to the Liu Research Group at the University of South Florida!  
+We design and study synthetic receptors for molecular recognition in water, with applications in health, energy, and environmental sustainability.
 
 {% include section.html %}
 
