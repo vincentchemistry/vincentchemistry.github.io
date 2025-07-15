@@ -1,5 +1,10 @@
 ---
+layout: home
+title: Liu Research Group
+subtitle: Molecular Recognition and Supramolecular Chemistry at USF
+permalink: /
 ---
+
 
 # vincentchemistry's Website
 
