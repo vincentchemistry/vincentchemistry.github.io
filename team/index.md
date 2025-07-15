@@ -1,35 +1,93 @@
 ---
-title: Team
-nav:
-  order: 3
-  tooltip: About our team
+layout: default
+title: Our Team
+permalink: /team/
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}Team
+<style>
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  margin-top: 2rem;
+}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+.person {
+  text-align: center;
+  max-width: 180px;
+}
 
-{% include section.html %}
+.person img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+</style>
 
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
-{% include list.html data="members" component="portrait" filter="role != 'pi'" %}
+# Our Team
 
-{% include section.html background="images/background.jpg" dark=true %}
+---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+## Principal Investigator
 
-{% include section.html %}
+<div class="people-grid">
+{% assign pi = site.data.members | where: "role", "Principal Investigator" %}
+{% for person in pi %}
+<div class="person">
+  <img src="/{{ person.image }}" alt="{{ person.name }}">
+  <strong>{{ person.name }}</strong><br/>
+  {{ person.role }}<br/>
+  <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+</div>
+{% endfor %}
+</div>
 
-{% capture content %}
+---
 
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
-{% include figure.html image="images/photo.jpg" %}
+## Graduate Students
 
-{% endcapture %}
+<div class="people-grid">
+{% assign grads = site.data.members | where: "role", "Graduate Student" %}
+{% for person in grads %}
+<div class="person">
+  <img src="/{{ person.image }}" alt="{{ person.name }}">
+  <strong>{{ person.name }}</strong><br/>
+  {{ person.role }}<br/>
+  <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+</div>
+{% endfor %}
+</div>
 
-{% include grid.html style="square" content=content %}
+---
+
+## Undergraduate Students
+
+<div class="people-grid">
+{% assign undergrads = site.data.members | where: "role", "Undergraduate Student" %}
+{% for person in undergrads %}
+<div class="person">
+  <img src="/{{ person.image }}" alt="{{ person.name }}">
+  <strong>{{ person.name }}</strong><br/>
+  {{ person.role }}<br/>
+  <a href="mailto:{{ person.email }}">{{ person.email }}</a>
+</div>
+{% endfor %}
+</div>
+
+---
+
+## Alumni
+
+<div class="people-grid">
+{% assign alumni = site.data.members | where: "role", "Alumni" %}
+{% for person in alumni %}
+<div class="person">
+  <img src="/{{ person.image }}" alt="{{ person.name }}">
+  <strong>{{ person.name }}</strong><br/>
+  {{ person.role }}<br/>
+</div>
+{% endfor %}
+</div>
