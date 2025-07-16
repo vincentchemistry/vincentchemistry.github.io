@@ -169,13 +169,14 @@ header[data-big] {
   .subtitle {
     font-size: var(--large);
   }
-  .site-header {
+.site-header {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;  /* centers title and nav */
   padding: 30px 0;
+  width: 100%;
+  text-align: center;
 }
-
 .site-nav {
   display: flex;
   justify-content: center;
@@ -205,5 +206,6 @@ header[data-big] {
   font-weight: bold;
   color: black;
   text-decoration: none;
+  margin-top: 10px;
 }
 }
