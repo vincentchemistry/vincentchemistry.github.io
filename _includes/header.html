@@ -1,21 +1,15 @@
-<header style="position: sticky; top: 0; background: white; border-bottom: 1px solid #ddd; z-index: 999;">
-  <div style="max-width: 1000px; margin: 0 auto; padding: 1rem;">
-    <nav style="display: flex; gap: 2rem; font-family: sans-serif; font-size: 1rem;">
-      {% assign pages = site.pages
-        | where_exp: "page", "page.nav"
-        | sort: "nav.order"
-      %}
-      {% for page in pages %}
-        {% if page.nav %}
-        <a href="{{ page.url | relative_url }}"
-           title="{{ page.nav.tooltip | escape }}"
-           style="text-decoration: none; color: #222; font-weight: 500; position: relative;"
-           onmouseover="this.style.textDecoration='underline'"
-           onmouseout="this.style.textDecoration='none'">
-          {{ page.title }}
-        </a>
-        {% endif %}
-      {% endfor %}
+<header>
+  <div class="site-header">
+    <a class="site-title" href="{{ '/' | relative_url }}">Liu Research Group</a>
+    
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}">Home</a>
+      <a href="{{ '/pi/' | relative_url }}">Wenqi Vince Liu</a>
+      <a href="{{ '/news/' | relative_url }}">News</a>
+      <a href="{{ '/research/' | relative_url }}">Research</a>
+      <a href="{{ '/team/' | relative_url }}">Members</a>
+      <a href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a href="{{ '/outreach/' | relative_url }}">Outreach</a>
     </nav>
   </div>
 </header>
