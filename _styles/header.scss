@@ -172,11 +172,21 @@ header[data-big] {
 .site-header {
   display: flex;
   flex-direction: column;
-  align-items: center;  /* centers title and nav */
-  padding: 30px 0;
+  align-items: center;
   width: 100%;
+  padding: 30px 0;
   text-align: center;
 }
+
+.site-title {
+  font-family: "Helvetica", sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
 .site-nav {
   display: flex;
   justify-content: center;
@@ -185,19 +195,18 @@ header[data-big] {
   font-family: "Helvetica", sans-serif;
   font-size: 18px;
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 
 .site-nav a {
   text-decoration: none;
   color: #000;
-  padding: 5px 10px;
   font-weight: 500;
+  padding: 5px 10px;
   transition: color 0.2s ease-in-out;
 }
 
 .site-nav a:hover {
-  color: var(--primary); /* or use your preferred hover color */
+  color: var(--primary); /* or pick a color like #0066cc */
 }
 
 .site-title {
