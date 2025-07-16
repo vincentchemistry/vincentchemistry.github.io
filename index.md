@@ -1,10 +1,9 @@
 ---
 layout: home
-title: Liu Research Group
-subtitle: Molecular Recognition and Supramolecular Chemistry at USF
+title: Home
 permalink: /
 nav:
-  order: 1
+  order: 0
   tooltip: Go to homepage
 ---
 
