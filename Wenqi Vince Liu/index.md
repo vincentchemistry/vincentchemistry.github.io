@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Wenqi Vince Liu
-permalink: /Wenqi Vince Liu/
+permalink: /Wenqi-Vince-Liu/
 nav:
-  order: 2
-  tooltip: Meet the team
+  order: 1
+  tooltip: About Prof. Liu
 ---
 
 <style>
