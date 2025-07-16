@@ -95,13 +95,14 @@ header a {
 }
 
 nav {
+  width: 100%; /* ensure nav takes full width */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-  font-family: "Helvetica", sans-serif;  // 👈 change this line
-  font-size: 18px;                       // 👈 add this line
+  font-family: "Helvetica", sans-serif;
+  font-size: 18px;
   text-transform: uppercase;
 }
 
