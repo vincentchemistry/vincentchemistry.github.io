@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Our Team
-permalink: /team/
+title: Wenqi Vince Liu
+permalink: /Wenqi Vince Liu/
 nav:
   order: 2
   tooltip: Meet the team
