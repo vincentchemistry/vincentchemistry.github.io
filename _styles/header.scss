@@ -100,17 +100,20 @@ nav {
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
-  font-family: var(--heading);
+  font-family: "Helvetica", sans-serif;  // 👈 change this line
+  font-size: 18px;                       // 👈 add this line
   text-transform: uppercase;
 }
 
 nav > a {
-  padding: 5px;
+  padding: 8px 16px;  // 👈 make links bigger with padding
+  text-decoration: none;
 }
 
 nav > a:hover {
   color: var(--primary);
 }
+
 
 header:not([data-big]) {
   @media (max-width: $collapse) {
