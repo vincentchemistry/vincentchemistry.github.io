@@ -2,6 +2,9 @@
 layout: default
 title: Our Team
 permalink: /team/
+nav:
+  order: 2
+  tooltip: Meet the team
 ---
 
 <style>
