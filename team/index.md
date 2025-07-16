@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Our Team
+title: Members
 permalink: /team/
 nav:
-  order: 2
+  order: 4
   tooltip: Meet the team
 ---
 
