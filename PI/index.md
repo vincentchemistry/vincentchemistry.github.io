@@ -6,7 +6,6 @@ nav:
   order: 1
   tooltip: About Prof. Liu
 ---
-
 <style>
 .people-grid {
   display: grid;
