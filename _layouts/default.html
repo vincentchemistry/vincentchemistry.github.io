@@ -3,9 +3,13 @@
   {% include head.html %}
   <body>
     {% include header.html %}
+
     <main>
-      {{ content }}
+      <div style="max-width: 960px; margin: 0 auto; padding: 0 20px;">
+        {{ content }}
+      </div>
     </main>
+
     {% include footer.html %}
   </body>
 </html>
