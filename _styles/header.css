@@ -120,7 +120,7 @@ nav > a:hover {
     justify-content: center;
   }
   header:not([data-big]) .site-nav a {
-    padding: 4px 8px;
+    padding: 3px 6px;
   }
 }
 
