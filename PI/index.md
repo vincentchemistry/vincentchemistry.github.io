@@ -11,7 +11,6 @@ nav:
 Department of Chemistry, University of South Florida  
 4202 E. Fowler Ave, Tampa, FL, 33620  
 **Email:** [wenqi@usf.edu](mailto:wenqi@usf.edu)
-
 **ORCID:** 0000‑0001‑6408‑0204 · **ResearchID:** T‑1712‑2019  
 [Google Scholar](https://scholar.google.com) · [ResearchGate](https://www.researchgate.net) · [LinkedIn](https://www.linkedin.com) · [CV (PDF)](#)
 ---
@@ -23,6 +22,5 @@ Department of Chemistry, University of South Florida
 - **B.S.**, Shandong University, Jinan, China (2009–2013)  
   Advisor: Prof. Aiyou Hao
 ---
-
 ## Awards
 - **Dow Chemical Company Outstanding Graduate Student Award**, 2018
