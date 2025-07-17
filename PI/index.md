@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Wenqi Vince Liu
+title: Wenqi Liu
 permalink: /pi/
 nav:
   order: 1
