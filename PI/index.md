@@ -1,3 +1,12 @@
+---
+layout: default
+title: Wenqi Vince Liu
+permalink: /pi/
+nav:
+  order: 1
+  tooltip: About Prof. Liu
+---
+
 # Dr. Wenqi Vince Liu
 
 <img src="/assets/images/wenqi-liu.jpg" alt="Wenqi Vince Liu" style="float: right; margin-left: 20px; margin-bottom: 10px; width: 200px; border-radius: 10px;">
