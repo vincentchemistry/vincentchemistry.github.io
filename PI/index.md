@@ -47,4 +47,4 @@ nav:
 
 ## Teaching
 - CHM 2210 – Organic Chemistry I  
-- CHM 4932 / CHM 6263 – Advanced Organic Chemistry: Phys
+- CHM 4932 / CHM 6263 – Advanced Organic Chemistry: Phys.Org
