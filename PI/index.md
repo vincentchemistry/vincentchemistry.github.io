@@ -8,14 +8,10 @@ nav:
 ---
 # Dr. Wenqi Vince Liu
 <p style="text-align: justify;">
-  <img src="/assets/images/wenqi-liu.jpg" alt="Wenqi Vince Liu" style="float: right; width: 200px; height: auto; margin-left: 20px; margin-bottom: 10px; border-radius: 10px;">
+  <img src="/assets/images/wenqi-liu.jpg" alt="Wenqi Vince Liu" style="float: left; width: 200px; height: auto; margin-left: 20px; margin-bottom: 10px; border-radius: 10px;">
   Dr. Wenqi Liu obtained his Bachelor of Science in Chemistry from Shandong University in 2013. He subsequently pursued his Ph.D. at the University of Notre Dame, working under the guidance of Professor Bradley Smith. His doctoral research focused on molecular recognition in aqueous systems, with a particular focus on the development of Synthavidin technology for bioimaging and disease diagnosis. In recognition of his outstanding contributions during his Ph.D., he was awarded the Dow Chemical Company Outstanding Graduate Student Award. After completing his Ph.D. in 2018, Dr. Liu joined the research group of Nobel Laureate Professor Fraser Stoddart at Northwestern University as a postdoctoral fellow from 2018 to 2021. During this time, his research explored the molecular recognition of pyridinium-based cyclophanes and developed innovative supramolecular strategies for gold recovery. In August 2021, Dr. Liu began his independent academic career as an Assistant Professor in the Department of Chemistry at the University of South Florida. In 2024, he was awarded the prestigious NSF CAREER Award for his contributions to the field of supramolecular chemistry. His research program is currently focused on hydrogen bonding-driven molecular recognition in water and the development of supramolecular adsorption materials for the recovery of critical minerals.
 </p>
-
-<h1>Dr. Wenqi Vince Liu</h1>
-
 <hr>
-
 <p>
   <a href="/assets/docs/Liu_CV.pdf" download style="display: inline-block; background-color: #004080; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold;">
     Download CV (PDF)
@@ -24,7 +20,7 @@ nav:
 **Contact:**
 - Office: NES 331, University of South Florida  
 - Email: [wenqi@usf.edu]  
-- [Google Scholar](https://scholar.google.com/citations?user=CRlR3ngAAAAJ&hl=en) | [ORCID](https://orcid.org/0000-0001-6408-0204) | [LinkedIn](#) | [X](https://x.com/vincentchem/status/1397603002735857668)  | [Bluesky](https://bsky.app/profile/vincentchemistry.bsky.social)
+- [Google Scholar](https://scholar.google.com) · [ResearchGate](https://www.researchgate.net) · [LinkedIn](https://www.linkedin.com) 
 ---
 ## Education
 - **Postdoc**, Northwestern University (2018–2021)  
