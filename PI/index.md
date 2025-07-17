@@ -6,7 +6,6 @@ nav:
   order: 1
   tooltip: About Prof. Liu
 ---
-
 # Dr. Wenqi Vince Liu
 <p style="text-align: justify;">
   <img src="/assets/images/wenqi-liu.jpg" alt="Wenqi Vince Liu" style="float: right; width: 200px; height: auto; margin-left: 20px; margin-bottom: 10px; border-radius: 10px;">
@@ -22,12 +21,10 @@ nav:
     Download CV (PDF)
   </a>
 </p>
-
 **Contact:**
 - Office: NES 331, University of South Florida  
 - Email: [wenqi@usf.edu]  
 - [Google Scholar](https://scholar.google.com/citations?user=CRlR3ngAAAAJ&hl=en) | [ORCID](https://orcid.org/0000-0001-6408-0204) | [LinkedIn](#) | [X](https://x.com/vincentchem/status/1397603002735857668)  | [Bluesky](https://bsky.app/profile/vincentchemistry.bsky.social)
-
 ---
 ## Education
 - **Postdoc**, Northwestern University (2018–2021)  
@@ -42,7 +39,6 @@ nav:
 - Journal of Materials Chemistry Emerging Investigator, 2023
 - Dow Chemical Company Outstanding Graduate Student Award, 2018
 ---
-
 ## Research Interests
 - Synthetic Receptors and Molecular Recognition  
 - Supramolecular Chemistry in Water  
@@ -50,7 +46,6 @@ nav:
 - Separation Science
 - Synthetic mimic of biomolecules  
 ---
-
 ## Teaching
 - CHM 2210 – Organic Chemistry I
 - CHM 4932/6263 - Advanced Organic Chemistry: Phy. Org.
