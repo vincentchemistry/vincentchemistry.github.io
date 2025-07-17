@@ -104,19 +104,23 @@ nav > a:hover {
 }
 
 @media (max-width: 700px) {
-  header:not([data-big]) {
-    justify-content: flex-end;
+  header:not([data-big]) .site-header {
+    padding: 10px 0;
   }
-  header:not([data-big]) .nav-toggle {
-    display: flex;
+  header:not([data-big]) .site-title {
+    font-size: 20px;
+    margin-bottom: 5px;
   }
-  header:not([data-big]) .nav-toggle:not(:checked) + nav {
-    display: none;
+  header:not([data-big]) .site-nav {
+    font-size: 14px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0 10px;
+    justify-content: center;
   }
-  header:not([data-big]) nav {
-    align-items: flex-end;
-    flex-direction: column;
-    width: 100%;
+  header:not([data-big]) .site-nav a {
+    padding: 4px 8px;
   }
 }
 
