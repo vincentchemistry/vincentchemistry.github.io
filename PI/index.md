@@ -6,90 +6,31 @@ nav:
   order: 1
   tooltip: About Prof. Liu
 ---
-<style>
-.people-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 2rem;
-  justify-items: center;
-  margin-top: 2rem;
-}
+# Wenqi “Vince” Liu, Ph.D.
 
-.person {
-  text-align: center;
-  max-width: 180px;
-}
+**Assistant Professor**  
+Department of Chemistry, University of South Florida  
+4202 E. Fowler Ave, Tampa, FL, 33620  
+**Email:** [wenqi@usf.edu](mailto:wenqi@usf.edu)
 
-.person img {
-  width: 150px;
-  height: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  margin-bottom: 0.5rem;
-}
-</style>
-
-# Our Team
+**ORCID:** 0000‑0001‑6408‑0204 · **ResearchID:** T‑1712‑2019  
+[Google Scholar](https://scholar.google.com) · [ResearchGate](https://www.researchgate.net) · [LinkedIn](https://www.linkedin.com) · [CV (PDF)](#)
 
 ---
 
-## Principal Investigator
+## Education & Professional Training
 
-<div class="people-grid">
-{% assign pi = site.data.members | where: "role", "Principal Investigator" %}
-{% for person in pi %}
-<div class="person">
-  <img src="/{{ person.image }}" alt="{{ person.name }}">
-  <strong>{{ person.name }}</strong><br/>
-  {{ person.role }}<br/>
-  <a href="mailto:{{ person.email }}">{{ person.email }}</a>
-</div>
-{% endfor %}
-</div>
+- **Postdoctoral Fellow**, Northwestern University (2018–2021)  
+  Advisor: Prof. J. Fraser Stoddart (2016 Nobel Laureate)
+
+- **Ph.D.**, University of Notre Dame (2013–2018)  
+  Advisor: Prof. Bradley D. Smith
+
+- **B.S.**, Shandong University, Jinan, China (2009–2013)  
+  Advisor: Prof. Aiyou Hao
 
 ---
 
-## Graduate Students
+## Awards
 
-<div class="people-grid">
-{% assign grads = site.data.members | where: "role", "Graduate Student" %}
-{% for person in grads %}
-<div class="person">
-  <img src="/{{ person.image }}" alt="{{ person.name }}">
-  <strong>{{ person.name }}</strong><br/>
-  {{ person.role }}<br/>
-  <a href="mailto:{{ person.email }}">{{ person.email }}</a>
-</div>
-{% endfor %}
-</div>
-
----
-
-## Undergraduate Students
-
-<div class="people-grid">
-{% assign undergrads = site.data.members | where: "role", "Undergraduate Student" %}
-{% for person in undergrads %}
-<div class="person">
-  <img src="/{{ person.image }}" alt="{{ person.name }}">
-  <strong>{{ person.name }}</strong><br/>
-  {{ person.role }}<br/>
-  <a href="mailto:{{ person.email }}">{{ person.email }}</a>
-</div>
-{% endfor %}
-</div>
-
----
-
-## Alumni
-
-<div class="people-grid">
-{% assign alumni = site.data.members | where: "role", "Alumni" %}
-{% for person in alumni %}
-<div class="person">
-  <img src="/{{ person.image }}" alt="{{ person.name }}">
-  <strong>{{ person.name }}</strong><br/>
-  {{ person.role }}<br/>
-</div>
-{% endfor %}
-</div>
+- **Dow Chemical Company Outstanding Graduate Student Award**, 2018
