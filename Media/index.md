@@ -1,10 +1,8 @@
 ---
-layout: page
+layout: default
 title: Media
-permalink: /media/
+permalink: /Media/
+nav:
+  order: 5
+  tooltip: media
 ---
-
-# Media
-
-This page will showcase group videos, press coverage, outreach highlights, and more.
-
