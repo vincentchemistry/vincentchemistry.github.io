@@ -6,7 +6,7 @@ nav:
   order: 1
   tooltip: About Prof. Liu
 ---
-# Dr. Wenqi Vince Liu
+## Dr. Wenqi Liu
 <div style="overflow: auto; margin-top: 1em; margin-bottom: 1.5em; line-height: 1.5; font-size: 1.02em;">
   <img src="/assets/images/wenqi-liu.jpg" alt="Wenqi Vince Liu" style="float: left; width: 180px; margin-right: 20px; margin-bottom: 10px; border-radius: 10px;">
   <div style="text-align: justify;">
@@ -24,7 +24,7 @@ nav:
 - **Email**: [wenqi@usf.edu](mailto:wenqi@usf.edu)  
 - **Profiles**: [Google Scholar](https://scholar.google.com/citations?user=CRlR3ngAAAAJ&hl=en)     [ResearchGate](https://www.researchgate.net/profile/Wenqi-Liu-10)     [LinkedIn](https://www.linkedin.com/in/wenqi-liu-a8831594/)     [ORCID](https://orcid.org/0000-0001-6408-0204)
 
-## Employment
+## Employments
 - Assistant Professor 2021–now
   
 ## Education
