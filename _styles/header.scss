@@ -95,7 +95,7 @@ header a {
 }
 
 nav {
-  width: 100%; /* ensure nav takes full width */
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,14 +107,13 @@ nav {
 }
 
 nav > a {
-  padding: 8px 16px;  // 👈 make links bigger with padding
+  padding: 8px 16px;
   text-decoration: none;
 }
 
 nav > a:hover {
   color: var(--primary);
 }
-
 
 header:not([data-big]) {
   @media (max-width: $collapse) {
@@ -169,6 +168,10 @@ header[data-big] {
   .subtitle {
     font-size: var(--large);
   }
+}
+
+/* ===================== Custom Site Header ===================== */
+
 .site-header {
   display: flex;
   flex-direction: column;
@@ -184,7 +187,7 @@ header[data-big] {
   font-weight: bold;
   color: black;
   text-decoration: none;
-  margin-bottom: 10px;
+  margin: 0 0 10px 0;
 }
 
 .site-nav {
@@ -206,20 +209,12 @@ header[data-big] {
 }
 
 .site-nav a:hover {
-  color: var(--primary); /* or pick a color like #0066cc */
+  color: var(--primary);
 }
 
-.site-title {
-  font-family: "Helvetica", sans-serif;
-  font-size: 28px;
-  font-weight: bold;
-  color: black;
-  text-decoration: none;
-  margin-top: 10px;
-}
-  .wrapper {
+/* Wrapper for consistent max width */
+.wrapper {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
-
