@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Media
-permalink: /Media/
+permalink: /media/
 nav:
   order: 5
   tooltip: media
