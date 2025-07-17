@@ -9,7 +9,7 @@ nav:
 
 # Dr. Wenqi Vince Liu
 
-<div style="overflow: auto; margin-top: 1em; margin-bottom: 2em; line-height: 1.6; font-size: 1.05em;">
+<div style="overflow: auto; margin-top: 1em; margin-bottom: 1.5em; line-height: 1.5; font-size: 1.02em;">
 
   <img src="/assets/images/wenqi-liu.jpg" alt="Wenqi Vince Liu" style="float: left; width: 180px; margin-right: 20px; margin-bottom: 10px; border-radius: 10px;">
 
@@ -19,54 +19,32 @@ nav:
 
 </div>
 
----
-
-<a href="/assets/docs/Liu_CV.pdf" download style="display: inline-block; background-color: #004080; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; margin-bottom: 1em;">
+<a href="/assets/docs/Liu_CV.pdf" download style="display: inline-block; background-color: #004080; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; font-weight: bold; margin-bottom: 1em;">
   Download CV (PDF)
 </a>
 
----
-
 ## Contact
-
--  **Office**: NES 331, University of South Florida  
--  **Email**: [wenqi@usf.edu](mailto:wenqi@usf.edu)  
--  **Profiles**: [Google Scholar](https://scholar.google.com/citations?user=CRlR3ngAAAAJ&hl=en) [ResearchGate](https://www.researchgate.net/profile/Wenqi-Liu-10) [LinkedIn](https://www.linkedin.com/in/wenqi-liu-a8831594/) [ORCID](https://orcid.org/0000-0001-6408-0204)
-
----
+- **Office**: NES 331, University of South Florida  
+- **Email**: [wenqi@usf.edu](mailto:wenqi@usf.edu)  
+- **Profiles**: [Google Scholar](https://scholar.google.com/citations?user=CRlR3ngAAAAJ&hl=en) | [ResearchGate](https://www.researchgate.net/profile/Wenqi-Liu-10) | [LinkedIn](https://www.linkedin.com/in/wenqi-liu-a8831594/) | [ORCID](https://orcid.org/0000-0001-6408-0204)
 
 ## Education
-
-- **Postdoc**, Northwestern University (2018–2021)  
-  Advisor: Prof. J. Fraser Stoddart (2016 Nobel Laureate)
-- **Ph.D.**, University of Notre Dame (2013–2018)  
-  Advisor: Prof. Bradley D. Smith
-- **B.S.**, Shandong University, Jinan, China (2009–2013)  
-  Advisor: Prof. Aiyou Hao
-
----
+- **Postdoc**, Northwestern University (2018–2021) — Advisor: Prof. J. Fraser Stoddart  
+- **Ph.D.**, University of Notre Dame (2013–2018) — Advisor: Prof. Bradley D. Smith  
+- **B.S.**, Shandong University (2009–2013) — Advisor: Prof. Aiyou Hao
 
 ## Awards and Honors
-
 - NSF CAREER Award, 2024  
 - Journal of Materials Chemistry Emerging Investigator, 2023  
 - Dow Chemical Company Outstanding Graduate Student Award, 2018
 
----
-
 ## Research Interests
-
 - Synthetic Receptors and Molecular Recognition  
 - Supramolecular Chemistry in Water  
 - Functional Molecular Cages  
 - Separation Science  
 - Synthetic Mimics of Biomolecules
 
----
-
 ## Teaching
-
 - CHM 2210 – Organic Chemistry I  
-- CHM 4932 / CHM 6263 – Advanced Organic Chemistry: Physical Organic
-
----
+- CHM 4932 / CHM 6263 – Advanced Organic Chemistry: Phys
