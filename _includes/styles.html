@@ -1,5 +1,4 @@
 <!-- third party styles -->
-<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
 <link 
   href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css"
   rel="stylesheet"
@@ -26,3 +25,64 @@
 {% for style in styles %}
   <link href="{{ style.path | relative_url }}" rel="stylesheet" />
 {% endfor %}
+
+<!-- Custom Typography and Layout Overrides -->
+<style>
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #111;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3 {
+    font-weight: 500;
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+  }
+
+  a {
+    color: #004080;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .site-nav a {
+    margin: 0 10px;
+    font-weight: 600;
+    font-size: 0.95em;
+    letter-spacing: 0.5px;
+  }
+
+  main {
+    padding-top: 100px;
+  }
+
+  .wrapper {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .site-header {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  }
+
+  .site-title {
+    font-size: 1.8em;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+  }
+
+  .site-nav {
+    text-align: center;
+    margin-top: 6px;
+  }
+</style>
