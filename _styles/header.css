@@ -106,6 +106,7 @@ nav > a:hover {
 @media (max-width: 700px) {
   header:not([data-big]) .site-header {
     padding: 10px 0;
+    margin-bottom: 0;
   }
   header:not([data-big]) .site-title {
     font-size: 20px;
@@ -118,9 +119,11 @@ nav > a:hover {
     gap: 4px;
     padding: 0 10px;
     justify-content: center;
+    margin: 0;
   }
   header:not([data-big]) .site-nav a {
     padding: 3px 6px;
+    margin: 0;
   }
 }
 
@@ -197,6 +200,15 @@ header[data-big] .subtitle {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+/* ===================== Heading Font ===================== */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+  color: #000;
+  letter-spacing: 0.3px;
+  margin-bottom: 0.5em;
 }
 
 /*# sourceMappingURL=header.css.map */
