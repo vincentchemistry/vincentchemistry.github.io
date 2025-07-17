@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wenqi Vince Liu
-permalink: /PI/
+permalink: /pi/
 nav:
   order: 1
   tooltip: About Prof. Liu
