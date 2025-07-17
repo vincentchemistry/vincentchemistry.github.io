@@ -31,7 +31,7 @@ nav:
 
 -  **Office**: NES 331, University of South Florida  
 -  **Email**: [wenqi@usf.edu](mailto:wenqi@usf.edu)  
--  **Profiles**: [Google Scholar](https://scholar.google.com/citations?user=CRlR3ngAAAAJ&hl=en) | [ResearchGate](https://www.researchgate.net/profile/Wenqi-Liu-10) | [LinkedIn](https://www.linkedin.com/in/wenqi-liu-a8831594/) | [ORCID](https://orcid.org/0000-0001-6408-0204)
+-  **Profiles**: [Google Scholar](https://scholar.google.com/citations?user=CRlR3ngAAAAJ&hl=en) [ResearchGate](https://www.researchgate.net/profile/Wenqi-Liu-10) [LinkedIn](https://www.linkedin.com/in/wenqi-liu-a8831594/) [ORCID](https://orcid.org/0000-0001-6408-0204)
 
 ---
 
