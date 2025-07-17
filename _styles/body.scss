@@ -6,7 +6,7 @@ body {
   min-height: 100vh;
   background: var(--background);
   color: var(--text);
-  font-family: "Helvetica", sans-serif;  // 🔁 override here
+  font-family: "Helvetica", sans-serif !important;  // 🔁 override here
   text-align: center;
   line-height: var(--compact);
   font-size: 20px;  // 🔺 Add this to increase base font size
