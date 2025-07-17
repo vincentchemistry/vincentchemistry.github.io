@@ -3,7 +3,7 @@ layout: default
 title: Publications
 permalink: /publications/
 nav:
-  order: 5
+  order: 6
   tooltip: View our publications
 ---
 
