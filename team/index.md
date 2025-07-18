@@ -7,27 +7,37 @@ nav:
   tooltip: Meet the team
 ---
 <style>
-.people-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 30px;
-  justify-items: center;
+.people-list {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
   margin-top: 40px;
 }
 
-.person-card {
-  text-align: center;
+.person-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
-.person-card img {
+.person-row img {
   width: 180px;
   height: 180px;
   object-fit: cover;
-  border-radius: 15px;
-  margin-bottom: 15px;
+  border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
+
+.person-info h2 {
+  margin: 0;
+}
+
+.person-info {
+  max-width: 600px;
+}
 </style>
+
 
 # Group Members
 
