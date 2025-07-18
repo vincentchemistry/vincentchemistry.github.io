@@ -72,7 +72,7 @@ h3.group-title {
     <div class="person-info">
       <h2>Wenqi Vince Liu</h2>
       <p class="position">Principal Investigator</p>
-      <p>Assistant Professor of Chemistry<br/>University of South Florida</p>
+      <p>Assistant Professor<br/>University of South Florida</p>
     </div>
   </div>
 </div>
@@ -121,7 +121,7 @@ h3.group-title {
 
   <div class="person-row">
     <div class="person-image">
-      <img src="{{ '/assets/images/ipsita-maji.jpeg' | relative_url }}" alt="Ipsita Maji" />
+      <img src="{{ '/assets/images/Ipsita-maji.jpeg' | relative_url }}" alt="Ipsita Maji" />
     </div>
     <div class="person-info">
       <h2>Ipsita Maji</h2>
