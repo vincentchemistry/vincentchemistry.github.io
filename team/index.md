@@ -12,7 +12,7 @@ nav:
 
 <!-- Principal Investigator -->
 <div class="person-card">
-  <img src="{{ '/assets/images/members/liu.jpg' | relative_url }}" alt="Dr. Wenqi Liu" />
+  <img src="{{ '/assets/images/wenqi-liu.jpg' | relative_url }}" alt="Dr. Wenqi Liu" />
   <h2>Dr. Wenqi Liu</h2>
   <p class="position">Principal Investigator</p>
   <p>Assistant Professor of Chemistry, University of South Florida</p>
