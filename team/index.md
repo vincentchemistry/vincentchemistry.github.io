@@ -6,51 +6,91 @@ nav:
   order: 4
   tooltip: Meet the team
 ---
+<style>
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 30px;
+  justify-items: center;
+  margin-top: 40px;
+}
+
+.person-card {
+  text-align: center;
+}
+
+.person-card img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+</style>
+
 # Group Members
 
 <div class="people-grid">
 
-<!-- Principal Investigator -->
+<!-- PI -->
 <div class="person-card">
-  <img src="{{ '/assets/images/wenqi-liu.jpg' | relative_url }}" alt="Dr. Wenqi Liu" />
-  <h2>Dr. Wenqi Liu</h2>
+  <img src="{{ '/assets/images/members/liu.jpg' | relative_url }}" alt="Wenqi Vince Liu" />
+  <h2>Wenqi Vince Liu</h2>
   <p class="position">Principal Investigator</p>
-  <p>Assistant Professor of Chemistry, University of South Florida</p>
-  <p><a href="{{ '/members#Wenqi-Liu' | relative_url }}">[Profile]</a></p>
+  <p>Assistant Professor of Chemistry<br/>University of South Florida</p>
 </div>
 
-<!-- Postdoctoral Fellow -->
+<!-- Postdoc -->
 <div class="person-card">
-  <img src="{{ '/assets/images/members/canjia-zhai.jpg' | relative_url }}" alt="Dr. Canjia Zhai" />
-  <h2>Dr. Canjia Zhai</h2>
+  <img src="{{ '/assets/images/members/zhai.jpg' | relative_url }}" alt="Canjia Zhai" />
+  <h2>Canjia Zhai</h2>
   <p class="position">Postdoctoral Fellow</p>
-  <p>B.S./M.S. Peking University</p>
- <p> Ph.D. University of Notre Dame</p>
- <p>Postdoc. University of Maryland
+  <p>B.S./M.S. Peking University<br/>Ph.D. University of Notre Dame</p>
 </div>
 
 <!-- Graduate Students -->
-{% assign grad = site.members | where:"role","Graduate Student" %}
-{% for person in grad %}
 <div class="person-card">
-  <img src="{{ '/assets/images/members/' | append: person.image | relative_url }}" alt="{{ person.name }}" />
-  <h2>{{ person.name }}</h2>
+  <img src="{{ '/assets/images/members/xu.jpg' | relative_url }}" alt="Chengkai Xu" />
+  <h2>Chengkai Xu</h2>
   <p class="position">Graduate Student</p>
-  <p>{{ person.bio }}</p>
-  <p><a href="mailto:{{ person.email }}">[Email]</a></p>
+  <p>B.S. in Chemistry, Zhejiang University<br/>Joined: 2021</p>
 </div>
-{% endfor %}
+
+<div class="person-card">
+  <img src="{{ '/assets/images/members/guo.jpg' | relative_url }}" alt="Haoyang Guo" />
+  <h2>Haoyang Guo</h2>
+  <p class="position">Graduate Student</p>
+  <p>B.S. in Chemistry, Jilin University<br/>Joined: 2021</p>
+</div>
+
+<div class="person-card">
+  <img src="{{ '/assets/images/members/tian.jpg' | relative_url }}" alt="Xinyu Tian" />
+  <h2>Xinyu Tian</h2>
+  <p class="position">Graduate Student</p>
+  <p>B.S. in Chemistry, Zhejiang University<br/>Joined: 2022</p>
+</div>
+
+<div class="person-card">
+  <img src="{{ '/assets/images/members/li.jpg' | relative_url }}" alt="Yifan Li" />
+  <h2>Yifan Li</h2>
+  <p class="position">Graduate Student</p>
+  <p>B.S. in Chemistry, Nankai University<br/>Joined: 2023</p>
+</div>
 
 <!-- Undergraduate Students -->
-{% assign undergrad = site.members | where:"role","Undergraduate Student" %}
-{% for person in undergrad %}
 <div class="person-card">
-  <img src="{{ '/assets/images/members/' | append: person.image | relative_url }}" alt="{{ person.name }}" />
-  <h2>{{ person.name }}</h2>
+  <img src="{{ '/assets/images/members/wu.jpg' | relative_url }}" alt="Ruiqi Wu" />
+  <h2>Ruiqi Wu</h2>
   <p class="position">Undergraduate Researcher</p>
-  <p>{{ person.bio }}</p>
-</div>
-{% endfor %}
-
+  <p>USF Chemistry Major<br/>Joined: 2023</p>
 </div>
 
+<div class="person-card">
+  <img src="{{ '/assets/images/members/meng.jpg' | relative_url }}" alt="Jiashu Meng" />
+  <h2>Jiashu Meng</h2>
+  <p class="position">Undergraduate Researcher</p>
+  <p>USF Chemistry Major<br/>Joined: 2023</p>
+</div>
+
+</div>
