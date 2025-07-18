@@ -119,17 +119,16 @@ function searchPublications() {
         <option value="2015">2015</option>
         <option value="2014">2014</option>
         <option value="2012">2012</option>
-        <option value="2002">2002</option>
       </select>
     </div>
   </div>
 
-  <!-- PUBLICATIONS: DISPLAY IN ORDER FROM YAML FILE -->
+  <!-- PUBLICATIONS: DISPLAY IN ORDER FROM YAML FILE, BOTTOM = (1) -->
   {% assign pubs = site.data.publications %}
   {% for pub in pubs %}
   <div class="publication-entry y{{ pub.year }} {{ pub.topic }}">
     <div class="publication-citation">
-      <strong>({{ forloop.index }})</strong> {{ pub.authors }} <em>{{ pub.title }}</em> <em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>, <em>{{ pub.volume }}</em>, {{ pub.pages }}. <a href="{{ pub.link }}" target="_blank">[Link]</a>
+      <strong>({{ forloop.length | minus: forloop.index0 }})</strong> {{ pub.authors }} <em>{{ pub.title }}</em> <em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>, <em>{{ pub.volume }}</em>, {{ pub.pages }}. <a href="{{ pub.link }}" target="_blank">[Link]</a>
     </div>
     <img class="publication-image" src="{{ pub.image }}" alt="TOC Graphic for {{ pub.title }}">
   </div>
