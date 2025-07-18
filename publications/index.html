@@ -485,7 +485,16 @@
 
     <main style="padding-top: 100px;">
       <div style="max-width: 960px; margin: 0 auto; padding: 0 20px;">
-        <style>
+        <!-- STYLES -->
+<style>
+/* Container to constrain width on large screens */
+.publication-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px; /* padding for mobile */
+}
+
+/* Search + Filter Row */
 .search-filter-container {
   display: flex;
   flex-wrap: wrap;
@@ -493,14 +502,12 @@
   align-items: center;
   margin-bottom: 30px;
   gap: 10px;
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .search-box input {
   padding: 10px;
-  width: 250px;
+  width: 100%;
+  max-width: 250px;
   font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -517,9 +524,6 @@
   margin-bottom: 60px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 40px;
-  max-width: 960px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .publication-citation {
@@ -532,8 +536,8 @@
 .publication-image {
   display: block;
   margin: 20px auto;
-  max-width: 960px;
   width: 100%;
+  max-width: 960px;
   height: auto;
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -572,36 +576,41 @@ function searchPublications() {
 
 <h1 id="publications">Publications</h1>
 
-<!-- SEARCH + FILTER -->
-<div class="search-filter-container">
-  <div class="search-box">
-    <input type="text" id="searchInput" placeholder="Search Publications" onkeyup="searchPublications()">
+<div class="publication-container">
+
+  <!-- SEARCH + FILTER -->
+  <div class="search-filter-container">
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search Publications" onkeyup="searchPublications()">
+    </div>
+    <div class="filter-dropdown">
+      <select id="yearFilter" onchange="filterPublicationsByYear()">
+        <option value="all">All Years</option>
+        <option value="2025">2025</option>
+        <option value="2024">2024</option>
+      </select>
+    </div>
   </div>
-  <div class="filter-dropdown">
-    <select id="yearFilter" onchange="filterPublicationsByYear()">
-      <option value="all">All Years</option>
-      <option value="2025">2025</option>
-      <option value="2024">2024</option>
-    </select>
+
+  <!-- PUBLICATION LIST -->
+  
+  
+  <div class="publication-entry y2025 anion">
+    <div class="publication-citation">
+      <strong>(1)</strong> Zhou, P.; Cheng, K.; Qu, K.; Wang, L.; Hu, C.; Liu, W.; Chen, H. <em>An electric molecular Faraday cage.</em> <em>J. Am. Chem. Soc.</em> <strong>2025</strong>, <em>147</em>, 19272–19281. <a href="https://doi.org/10.1021/jacs.5c01234" target="_blank">[Link]</a>
+    </div>
+    <img class="publication-image" src="/assets/images/publications/zhou2025jacs.png" alt="TOC Graphic for An electric molecular Faraday cage.">
   </div>
+  
+  <div class="publication-entry y2024 carbohydrate">
+    <div class="publication-citation">
+      <strong>(2)</strong> Liu, W.; Tan, L.; Chen, M. <em>Pyridinium-bridged macrocycles for glucose binding in water.</em> <em>Chem. Sci.</em> <strong>2024</strong>, <em>15</em>, 4567–4578. <a href="https://doi.org/10.1039/d4sc04567a" target="_blank">[Link]</a>
+    </div>
+    <img class="publication-image" src="/assets/images/publications/liu2024chemsci.png" alt="TOC Graphic for Pyridinium-bridged macrocycles for glucose binding in water.">
+  </div>
+  
+
 </div>
-
-<!-- PUBLICATION LIST -->
-
-<div class="publication-entry y2025 anion">
-  <div class="publication-citation">
-    <strong>(1)</strong> Zhou, P.; Cheng, K.; Qu, K.; Wang, L.; Hu, C.; Liu, W.; Chen, H. <em>An electric molecular Faraday cage.</em> <em>J. Am. Chem. Soc.</em> <strong>2025</strong>, <em>147</em>, 19272–19281. <a href="https://doi.org/10.1021/jacs.5c01234" target="_blank">[Link]</a>
-  </div>
-  <img class="publication-image" src="/assets/images/publications/zhou2025jacs.png" alt="TOC Graphic for An electric molecular Faraday cage.">
-</div>
-
-<div class="publication-entry y2024 carbohydrate">
-  <div class="publication-citation">
-    <strong>(2)</strong> Liu, W.; Tan, L.; Chen, M. <em>Pyridinium-bridged macrocycles for glucose binding in water.</em> <em>Chem. Sci.</em> <strong>2024</strong>, <em>15</em>, 4567–4578. <a href="https://doi.org/10.1039/d4sc04567a" target="_blank">[Link]</a>
-  </div>
-  <img class="publication-image" src="/assets/images/publications/liu2024chemsci.png" alt="TOC Graphic for Pyridinium-bridged macrocycles for glucose binding in water.">
-</div>
-
 
       </div>
     </main>
