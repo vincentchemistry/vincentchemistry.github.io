@@ -110,6 +110,7 @@ nav:
 </div>
 
 <!-- Undergraduate Students -->
+
 <div class="person-row">
   <div class="person-image">
     <img src="{{ '/assets/images/andrew-victoria.jpeg' | relative_url }}" alt="Andrew Victoria" />
