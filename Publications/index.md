@@ -7,8 +7,6 @@ nav:
   tooltip: View our publications
 ---
 
-Warning! Copyrights to the publications are held by their publishers. The copies provided here are only for personal use and may not be reposted on other websites or used for any other purpose without the permission of publishers.
-
 <style>
 .filter-buttons {
   margin-bottom: 30px;
@@ -65,6 +63,8 @@ function filterPublications(category) {
   document.getElementById('btn-' + category).classList.add('active');
 }
 </script>
+
+Warning! Copyrights to the publications are held by their publishers. The copies provided here are only for personal use and may not be reposted on other websites or used for any other purpose without the permission of publishers.
 
 # Publications
 
