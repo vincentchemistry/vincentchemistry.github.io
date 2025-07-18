@@ -21,10 +21,12 @@ nav:
 
 <!-- Postdoctoral Fellow -->
 <div class="person-card">
-  <img src="{{ '/assets/images/members/zhai.jpg' | relative_url }}" alt="Dr. Canjia Zhai" />
+  <img src="{{ '/assets/images/members/canjia-zhai.jpg' | relative_url }}" alt="Dr. Canjia Zhai" />
   <h2>Dr. Canjia Zhai</h2>
   <p class="position">Postdoctoral Fellow</p>
-  <p>B.S./M.S. Peking University; Ph.D. University of Notre Dame</p>
+  <p>B.S./M.S. Peking University</p>
+ <p> Ph.D. University of Notre Dame</p>
+ <p>Postdoc. University of Maryland
 </div>
 
 <!-- Graduate Students -->
