@@ -6,7 +6,6 @@ nav:
   order: 4
   tooltip: Meet the team
 ---
-
 <style>
 .people-grid {
   display: grid;
