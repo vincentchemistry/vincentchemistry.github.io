@@ -127,7 +127,7 @@ h3.group-title {
       <h2>Ipsita Maji</h2>
       <p class="position">Graduate Student</p>
       <p>B.S., Vidyasagar University, India<br/>
-         M.S. in Chemistry, National Institute of Technology Rourkela, India</p>
+         M.S. in Chemistry, National Institute of Technology Rourkela, India</p><br/>Joined: Fall 2022</p>
     </div>
   </div>
 </div>
