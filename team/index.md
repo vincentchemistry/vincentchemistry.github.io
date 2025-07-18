@@ -22,15 +22,15 @@ nav:
 }
 
 .person-row img {
-  width: 160px;
-  height: 160px;
+  width: 50px;
+  height: 50px;
   object-fit: cover;
   border-radius: 10px; /* rounded corners */
   box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
 
 .person-info {
-  max-width: 600px;
+  max-width: 200px;
 }
 
 .person-info h2 {
