@@ -77,7 +77,7 @@ nav:
 <!-- Graduate Students -->
 <div class="person-row">
   <div class="person-image">
-    <img src="{{ '/assets/images/chengkai-xu.jpg' | relative_url }}" alt="Chengkai Xu" />
+    <img src="{{ '/assets/images/chengkai-xu.png' | relative_url }}" alt="Chengkai Xu" />
   </div>
   <div class="person-info">
     <h2>Chengkai Xu</h2>
@@ -88,7 +88,7 @@ nav:
 
 <div class="person-row">
   <div class="person-image">
-    <img src="{{ '/assets/images/alex-mariscal.jpg' | relative_url }}" alt="Alexander Mariscal" />
+    <img src="{{ '/assets/images/alex-mariscal.png' | relative_url }}" alt="Alexander Mariscal" />
   </div>
   <div class="person-info">
     <h2>Alexander Mariscal</h2>
@@ -99,7 +99,7 @@ nav:
 
 <div class="person-row">
   <div class="person-image">
-    <img src="{{ '/assets/images/ipsita-maji.jpg' | relative_url }}" alt="Ipsita Maji" />
+    <img src="{{ '/assets/images/ipsita-maji.jpeg' | relative_url }}" alt="Ipsita Maji" />
   </div>
   <div class="person-info">
     <h2>Ipsita Maji</h2>
@@ -112,10 +112,10 @@ nav:
 <!-- Undergraduate Students -->
 <div class="person-row">
   <div class="person-image">
-    <img src="{{ '/assets/images/wu.jpg' | relative_url }}" alt="Ruiqi Wu" />
+    <img src="{{ '/assets/images/andrew-victoria.jpeg' | relative_url }}" alt="Andrew Victoria" />
   </div>
   <div class="person-info">
-    <h2>Ruiqi Wu</h2>
+    <h2>Andrew Victoria/h2>
     <p class="position">Undergraduate Researcher</p>
     <p>USF Chemistry Major<br/>Joined: 2023</p>
   </div>
@@ -123,13 +123,24 @@ nav:
 
 <div class="person-row">
   <div class="person-image">
-    <img src="{{ '/assets/images/meng.jpg' | relative_url }}" alt="Jiashu Meng" />
+    <img src="{{ '/assets/images/haden-fisher.jpeg' | relative_url }}" alt="Haden Fisher" />
   </div>
   <div class="person-info">
-    <h2>Jiashu Meng</h2>
+    <h2>Haden Fisher</h2>
     <p class="position">Undergraduate Researcher</p>
     <p>USF Chemistry Major<br/>Joined: 2023</p>
   </div>
 </div>
 
+
+<div class="person-row">
+  <div class="person-image">
+    <img src="{{ '/assets/images/hannah-armanious.png' | relative_url }}" alt="Hannah Armanious" />
+  </div>
+  <div class="person-info">
+    <h2>Hannah Armanious</h2>
+    <p class="position">Undergraduate Researcher</p>
+    <p>USF Chemistry Major<br/>Joined: 2023</p>
+  </div>
+</div>
 </div>
