@@ -142,7 +142,7 @@ h3.group-title {
     <div class="person-info">
       <h2>Andrew Victoria</h2>
       <p class="position">Undergraduate Researcher</p>
-      <p>USF Chemistry Major<br/>Joined: 2023</p>
+      <p>USF Chemistry Major<br/>Joined: 2024</p>
     </div>
   </div>
 
@@ -164,7 +164,7 @@ h3.group-title {
     <div class="person-info">
       <h2>Hannah Armanious</h2>
       <p class="position">Undergraduate Researcher</p>
-      <p>USF Chemistry Major<br/>Joined: 2023</p>
+      <p>USF Chemistry Major<br/>Joined: 2024</p>
     </div>
   </div>
 </div>
