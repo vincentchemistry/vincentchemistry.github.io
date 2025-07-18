@@ -9,14 +9,12 @@ nav:
 
 <!-- STYLES -->
 <style>
-/* Container to constrain width on large screens */
 .publication-container {
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 20px; /* padding for mobile */
+  padding: 0 20px;
 }
 
-/* Search + Filter Row */
 .search-filter-container {
   display: flex;
   flex-wrap: wrap;
@@ -114,12 +112,12 @@ function searchPublications() {
     </div>
   </div>
 
-  <!-- PUBLICATION LIST -->
-  {% assign pubs = site.data.publications %}
+  <!-- PUBLICATIONS SORTED REVERSE BY YEAR -->
+  {% assign pubs = site.data.publications | sort: "year" | reverse %}
   {% for pub in pubs %}
   <div class="publication-entry y{{ pub.year }} {{ pub.topic }}">
     <div class="publication-citation">
-      <strong>({{ forloop.index }})</strong> {{ pub.authors }} <em>{{ pub.title }}</em> <em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>, <em>{{ pub.volume }}</em>, {{ pub.pages }}. <a href="{{ pub.link }}" target="_blank">[Link]</a>
+      <strong>({{ forloop.length | minus: forloop.index0 }})</strong> {{ pub.authors }} <em>{{ pub.title }}</em> <em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>, <em>{{ pub.volume }}</em>, {{ pub.pages }}. <a href="{{ pub.link }}" target="_blank">[Link]</a>
     </div>
     <img class="publication-image" src="{{ pub.image }}" alt="TOC Graphic for {{ pub.title }}">
   </div>
