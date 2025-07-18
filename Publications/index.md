@@ -3,9 +3,11 @@ layout: default
 title: Publications
 permalink: /publications/
 nav:
-  order: 6
-  tooltip: View our publications
+  order: 5
+  tooltip: Group publications
 ---
+
+<!-- STYLES -->
 <style>
 .search-filter-container {
   display: flex;
@@ -24,20 +26,6 @@ nav:
   border-radius: 5px;
 }
 
-.search-box button {
-  background-color: #5A2A82;
-  border: none;
-  padding: 10px 14px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.search-box button svg {
-  fill: white;
-  width: 16px;
-  height: 16px;
-}
-
 .filter-dropdown select {
   padding: 10px;
   font-size: 14px;
@@ -49,6 +37,9 @@ nav:
   margin-bottom: 60px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 40px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .publication-citation {
@@ -56,12 +47,16 @@ nav:
   line-height: 1.8;
   font-family: "Georgia", serif;
   color: #222;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .publication-image {
-  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+  max-width: 600px;
+  width: 100%;
   height: auto;
-  margin: 20px 0;
   border: 1px solid #ddd;
   border-radius: 6px;
   box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
@@ -72,6 +67,7 @@ nav:
 }
 </style>
 
+<!-- JAVASCRIPT -->
 <script>
 function filterPublicationsByYear() {
   let year = document.getElementById('yearFilter').value;
@@ -98,6 +94,7 @@ function searchPublications() {
 
 # Publications
 
+<!-- SEARCH + FILTER -->
 <div class="search-filter-container">
   <div class="search-box">
     <input type="text" id="searchInput" placeholder="Search Publications" onkeyup="searchPublications()" />
@@ -111,18 +108,13 @@ function searchPublications() {
   </div>
 </div>
 
-<!-- Example Publication -->
-<div class="publication-entry y2025 anion">
+<!-- PUBLICATION LIST -->
+{% assign pubs = site.data.publications %}
+{% for pub in pubs %}
+<div class="publication-entry y{{ pub.year }} {{ pub.topic }}">
   <div class="publication-citation">
-    <strong>(48)</strong> Zhou, P.; Cheng, K.; Qu, K.; Wang, L.; Hu, C.; <strong>Liu, W.</strong>; Chen, H. <em>An electric molecular Faraday cage.</em> <em>J. Am. Chem. Soc.</em> <strong>2025</strong>, <em>147</em>, 19272–19281. <a href="https://doi.org/10.1021/jacs.5c01234" target="_blank">[Link]</a>
+    <strong>({{ forloop.index }})</strong> {{ pub.authors }} <em>{{ pub.title }}</em> <em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>, <em>{{ pub.volume }}</em>, {{ pub.pages }}. <a href="{{ pub.link }}" target="_blank">[Link]</a>
   </div>
-  <img class="publication-image" src="/assets/images/publications/zhou2025jacs.png" alt="TOC Graphic for Zhou et al. JACS 2025">
+  <img class="publication-image" src="{{ pub.image }}" alt="TOC Graphic for {{ pub.title }}">
 </div>
-
-<div class="publication-entry y2024 carbohydrate">
-  <div class="publication-citation">
-    <strong>(47)</strong> Liu, W.; Tan, L.; Chen, M. <em>Pyridinium-bridged macrocycles for glucose binding in water.</em> <em>Chem. Sci.</em> <strong>2024</strong>, <em>15</em>, 4567–4578. <a href="https://doi.org/10.1039/d4sc04567a" target="_blank">[Link]</a>
-  </div>
-  <img class="publication-image" src="/assets/images/publications/liu2024chemsci.png" alt="TOC Graphic for Liu et al. Chem Sci 2024">
-</div>
-
+{% endfor %}
