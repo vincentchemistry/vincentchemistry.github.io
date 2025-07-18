@@ -40,10 +40,21 @@ nav:
   border-radius: 5px;
 }
 
+.year-group {
+  margin-top: 60px;
+}
+
+.year-group h2 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 5px;
+  font-size: 24px;
+  color: #333;
+}
+
 .publication-entry {
   margin-bottom: 60px;
-  border-bottom: 1px solid #ccc;
   padding-bottom: 40px;
+  border-bottom: 1px solid #ddd;
 }
 
 .publication-citation {
@@ -73,10 +84,11 @@ nav:
 <script>
 function filterPublicationsByYear() {
   let year = document.getElementById('yearFilter').value;
-  document.querySelectorAll('.publication-entry').forEach(entry => {
-    entry.classList.remove('hidden');
-    if (year !== 'all' && !entry.classList.contains('y' + year)) {
-      entry.classList.add('hidden');
+  document.querySelectorAll('.year-group').forEach(group => {
+    if (year === 'all' || group.dataset.year === year) {
+      group.classList.remove('hidden');
+    } else {
+      group.classList.add('hidden');
     }
   });
 }
@@ -114,19 +126,35 @@ function searchPublications() {
     </div>
   </div>
 
-  <!-- LOOP THROUGH YAML IN ORIGINAL ORDER -->
+  <!-- PUBLICATIONS GROUPED BY YEAR -->
   {% assign pubs = site.data.publications %}
+  {% assign total = pubs.size %}
+  {% assign current_year = nil %}
+  {% assign count = 0 %}
+
   {% for pub in pubs %}
-  <div class="publication-entry y{{ pub.year }} {{ pub.topic }}">
-    <div class="publication-citation">
-      <strong>({{ forloop.length | minus: forloop.index0 }})</strong>
-      {{ pub.authors }} <em>{{ pub.title }}</em>
-      <em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>,
-      <em>{{ pub.volume }}</em>, {{ pub.pages }}.
-      <a href="{{ pub.link }}" target="_blank">[Link]</a>
+    {% unless pub.year == current_year %}
+      {% if forloop.index > 1 %}
+        </div> <!-- Close previous year-group -->
+      {% endif %}
+      <div class="year-group" data-year="{{ pub.year }}">
+        <h2>{{ pub.year }}</h2>
+      {% assign current_year = pub.year %}
+    {% endunless %}
+
+    {% assign number = total | minus: count %}
+    <div class="publication-entry y{{ pub.year }} {{ pub.topic }}">
+      <div class="publication-citation">
+        <strong>({{ number }})</strong>
+        {{ pub.authors }} <em>{{ pub.title }}</em>
+        <em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>,
+        <em>{{ pub.volume }}</em>, {{ pub.pages }}.
+        <a href="{{ pub.link }}" target="_blank">[Link]</a>
+      </div>
+      <img class="publication-image" src="{{ pub.image }}" alt="TOC Graphic for {{ pub.title }}">
     </div>
-    <img class="publication-image" src="{{ pub.image }}" alt="TOC Graphic for {{ pub.title }}">
-  </div>
+    {% assign count = count | plus: 1 %}
   {% endfor %}
+  </div> <!-- Close last year-group -->
 
 </div>
