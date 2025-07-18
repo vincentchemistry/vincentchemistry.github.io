@@ -7,7 +7,6 @@ nav:
   tooltip: Latest lab updates
 ---
 # News 🗞️
-- **05‑19‑2025**:
 - **05‑19‑2025**: Welcome **Angus Rhoton** from Hillsborough Community College to join our group as an REU student.
 - **05‑07‑2025**: Congratulations to **Alexander Mariscal** for his paper published in *Chem. Eur. J.*
 - **03‑23‑2025**: Our group received a **New Researcher Grant!**
