@@ -6,8 +6,6 @@ nav:
   order: 5
   tooltip: Group publications
 ---
-
-<!-- STYLES -->
 <style>
 .search-filter-container {
   display: flex;
@@ -16,6 +14,9 @@ nav:
   align-items: center;
   margin-bottom: 30px;
   gap: 10px;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .search-box input {
@@ -37,7 +38,7 @@ nav:
   margin-bottom: 60px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 40px;
-  max-width: 700px;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -47,14 +48,12 @@ nav:
   line-height: 1.8;
   font-family: "Georgia", serif;
   color: #222;
-  max-width: 600px;
-  margin: 0 auto;
 }
 
 .publication-image {
   display: block;
   margin: 20px auto;
-  max-width: 600px;
+  max-width: 960px;
   width: 100%;
   height: auto;
   border: 1px solid #ddd;
@@ -66,6 +65,7 @@ nav:
   display: none;
 }
 </style>
+
 
 <!-- JAVASCRIPT -->
 <script>
