@@ -46,7 +46,7 @@ nav:
   <img src="{{ '/assets/images/canjia-zhai.jpg' | relative_url }}" alt="Canjia Zhai" />
   <h2>Canjia Zhai</h2>
   <p class="position">Postdoctoral Fellow</p>
-  <p>B.S./M.S. Peking University<br/>Ph.D. University of Notre Dame</p>
+  <p>B.S./M.S. Peking University<br/>Ph.D. University of Notre Dame<br/>Posctoc University of Maryland</p>
 </div>
 
 <!-- Graduate Students -->
@@ -54,21 +54,21 @@ nav:
   <img src="{{ '/assets/images/chengkai-xu.jpg' | relative_url }}" alt="Chengkai Xu" />
   <h2>Chengkai Xu</h2>
   <p class="position">Graduate Student</p>
-  <p>B.S. in Chemistry, Zhejiang University<br/>Joined: 2021</p>
+  <p>B.S. in Chemistry, Zhejiang University<br/>Joined: Spring 2022</p>
 </div>
 
 <div class="person-card">
   <img src="{{ '/assets/images/alex-mariscal.jpg' | relative_url }}" alt="Haoyang Guo" />
   <h2>Haoyang Guo</h2>
   <p class="position">Graduate Student</p>
-  <p>B.S. in Chemistry, Jilin University<br/>Joined: 2021</p>
+  <p>B.S. in Chemistry, Jilin University<br/>Joined: Fall 2022</p>
 </div>
 
 <div class="person-card">
   <img src="{{ '/assets/images/ipsita-maji.jpg' | relative_url }}" alt="Xinyu Tian" />
   <h2>Xinyu Tian</h2>
   <p class="position">Graduate Student</p>
-  <p>B.S. in Chemistry, Zhejiang University<br/>Joined: 2022</p>
+  <p>B.S. in Chemistry, Zhejiang University<br/>Joined: Fall 2022</p>
 </div>
 
 <!-- Undergraduate Students -->
