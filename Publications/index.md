@@ -56,8 +56,8 @@ nav:
 .publication-image {
   display: block;
   margin: 20px auto;
-  width: 100%;
-  max-width: 960px;
+  width: 66%;
+  max-width: 640px;
   height: auto;
   border: 1px solid #ddd;
   border-radius: 6px;
@@ -108,16 +108,28 @@ function searchPublications() {
         <option value="all">All Years</option>
         <option value="2025">2025</option>
         <option value="2024">2024</option>
+        <option value="2023">2023</option>
+        <option value="2022">2022</option>
+        <option value="2021">2021</option>
+        <option value="2020">2020</option>
+        <option value="2019">2019</option>
+        <option value="2018">2018</option>
+        <option value="2017">2017</option>
+        <option value="2016">2016</option>
+        <option value="2015">2015</option>
+        <option value="2014">2014</option>
+        <option value="2012">2012</option>
+        <option value="2002">2002</option>
       </select>
     </div>
   </div>
 
-  <!-- PUBLICATIONS SORTED REVERSE BY YEAR -->
-  {% assign pubs = site.data.publications | sort: "year" | reverse %}
+  <!-- PUBLICATIONS: DISPLAY IN ORDER FROM YAML FILE -->
+  {% assign pubs = site.data.publications %}
   {% for pub in pubs %}
   <div class="publication-entry y{{ pub.year }} {{ pub.topic }}">
     <div class="publication-citation">
-      <strong>({{ forloop.length | minus: forloop.index0 }})</strong> {{ pub.authors }} <em>{{ pub.title }}</em> <em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>, <em>{{ pub.volume }}</em>, {{ pub.pages }}. <a href="{{ pub.link }}" target="_blank">[Link]</a>
+      <strong>({{ forloop.index }})</strong> {{ pub.authors }} <em>{{ pub.title }}</em> <em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>, <em>{{ pub.volume }}</em>, {{ pub.pages }}. <a href="{{ pub.link }}" target="_blank">[Link]</a>
     </div>
     <img class="publication-image" src="{{ pub.image }}" alt="TOC Graphic for {{ pub.title }}">
   </div>
