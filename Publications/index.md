@@ -6,23 +6,43 @@ nav:
   order: 6
   tooltip: View our publications
 ---
-
 <style>
-.filter-buttons {
+.search-filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 30px;
+  gap: 10px;
 }
-.filter-buttons button {
-  background: #f0f0f0;
+
+.search-box input {
+  padding: 10px;
+  width: 250px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-box button {
+  background-color: #5A2A82;
   border: none;
-  padding: 10px 16px;
-  margin: 5px;
-  border-radius: 20px;
+  padding: 10px 14px;
+  border-radius: 5px;
   cursor: pointer;
-  font-weight: bold;
 }
-.filter-buttons button.active {
-  background: #007ACC;
-  color: white;
+
+.search-box button svg {
+  fill: white;
+  width: 16px;
+  height: 16px;
+}
+
+.filter-dropdown select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .publication-entry {
@@ -46,34 +66,49 @@ nav:
   border-radius: 6px;
   box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
 }
+
+.hidden {
+  display: none;
+}
 </style>
 
 <script>
-function filterPublications(category) {
-  let entries = document.querySelectorAll('.publication-entry');
-  entries.forEach(entry => {
-    if (category === 'all' || entry.classList.contains(category)) {
+function filterPublicationsByYear() {
+  let year = document.getElementById('yearFilter').value;
+  document.querySelectorAll('.publication-entry').forEach(entry => {
+    entry.classList.remove('hidden');
+    if (year !== 'all' && !entry.classList.contains('y' + year)) {
+      entry.classList.add('hidden');
+    }
+  });
+}
+
+function searchPublications() {
+  let input = document.getElementById('searchInput').value.toLowerCase();
+  document.querySelectorAll('.publication-entry').forEach(entry => {
+    const text = entry.textContent.toLowerCase();
+    if (text.includes(input)) {
       entry.classList.remove('hidden');
     } else {
       entry.classList.add('hidden');
     }
   });
-
-  document.querySelectorAll('.filter-buttons button').forEach(btn => btn.classList.remove('active'));
-  document.getElementById('btn-' + category).classList.add('active');
 }
 </script>
 
-Warning! Copyrights to the publications are held by their publishers. The copies provided here are only for personal use and may not be reposted on other websites or used for any other purpose without the permission of publishers.
-
 # Publications
 
-<div class="filter-buttons">
-  <button id="btn-all" class="active" onclick="filterPublications('all')">All</button>
-  <button id="btn-2025" onclick="filterPublications('y2025')">2025</button>
-  <button id="btn-2024" onclick="filterPublications('y2024')">2024</button>
-  <button id="btn-anion" onclick="filterPublications('anion')">Anion Binding</button>
-  <button id="btn-carbohydrate" onclick="filterPublications('carbohydrate')">Carbohydrate Recognition</button>
+<div class="search-filter-container">
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search Publications" onkeyup="searchPublications()" />
+  </div>
+  <div class="filter-dropdown">
+    <select id="yearFilter" onchange="filterPublicationsByYear()">
+      <option value="all">All Years</option>
+      <option value="2025">2025</option>
+      <option value="2024">2024</option>
+    </select>
+  </div>
 </div>
 
 <!-- Example Publication -->
@@ -83,3 +118,11 @@ Warning! Copyrights to the publications are held by their publishers. The copies
   </div>
   <img class="publication-image" src="/assets/images/publications/zhou2025jacs.png" alt="TOC Graphic for Zhou et al. JACS 2025">
 </div>
+
+<div class="publication-entry y2024 carbohydrate">
+  <div class="publication-citation">
+    <strong>(47)</strong> Liu, W.; Tan, L.; Chen, M. <em>Pyridinium-bridged macrocycles for glucose binding in water.</em> <em>Chem. Sci.</em> <strong>2024</strong>, <em>15</em>, 4567–4578. <a href="https://doi.org/10.1039/d4sc04567a" target="_blank">[Link]</a>
+  </div>
+  <img class="publication-image" src="/assets/images/publications/liu2024chemsci.png" alt="TOC Graphic for Liu et al. Chem Sci 2024">
+</div>
+
