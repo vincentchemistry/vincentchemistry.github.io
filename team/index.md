@@ -6,12 +6,6 @@ nav:
   order: 4
   tooltip: Meet the team
 ---
----
-layout: people
-title: Members
-permalink: /members/
----
-
 # Group Members
 
 <div class="people-grid">
