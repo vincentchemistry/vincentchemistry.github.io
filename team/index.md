@@ -35,7 +35,7 @@ nav:
 
 <!-- PI -->
 <div class="person-card">
-  <img src="{{ '/assets/images/members/liu.jpg' | relative_url }}" alt="Wenqi Vince Liu" />
+  <img src="{{ '/assets/images/wenqi-liu.jpg' | relative_url }}" alt="Wenqi Vince Liu" />
   <h2>Wenqi Vince Liu</h2>
   <p class="position">Principal Investigator</p>
   <p>Assistant Professor of Chemistry<br/>University of South Florida</p>
@@ -43,7 +43,7 @@ nav:
 
 <!-- Postdoc -->
 <div class="person-card">
-  <img src="{{ '/assets/images/members/zhai.jpg' | relative_url }}" alt="Canjia Zhai" />
+  <img src="{{ '/assets/images/canjia-zhai.jpg' | relative_url }}" alt="Canjia Zhai" />
   <h2>Canjia Zhai</h2>
   <p class="position">Postdoctoral Fellow</p>
   <p>B.S./M.S. Peking University<br/>Ph.D. University of Notre Dame</p>
@@ -51,46 +51,40 @@ nav:
 
 <!-- Graduate Students -->
 <div class="person-card">
-  <img src="{{ '/assets/images/members/xu.jpg' | relative_url }}" alt="Chengkai Xu" />
+  <img src="{{ '/assets/images/chengkai-xu.jpg' | relative_url }}" alt="Chengkai Xu" />
   <h2>Chengkai Xu</h2>
   <p class="position">Graduate Student</p>
   <p>B.S. in Chemistry, Zhejiang University<br/>Joined: 2021</p>
 </div>
 
 <div class="person-card">
-  <img src="{{ '/assets/images/members/guo.jpg' | relative_url }}" alt="Haoyang Guo" />
+  <img src="{{ '/assets/images/alex-mariscal.jpg' | relative_url }}" alt="Haoyang Guo" />
   <h2>Haoyang Guo</h2>
   <p class="position">Graduate Student</p>
   <p>B.S. in Chemistry, Jilin University<br/>Joined: 2021</p>
 </div>
 
 <div class="person-card">
-  <img src="{{ '/assets/images/members/tian.jpg' | relative_url }}" alt="Xinyu Tian" />
+  <img src="{{ '/assets/images/ipsita-maji.jpg' | relative_url }}" alt="Xinyu Tian" />
   <h2>Xinyu Tian</h2>
   <p class="position">Graduate Student</p>
   <p>B.S. in Chemistry, Zhejiang University<br/>Joined: 2022</p>
 </div>
 
-<div class="person-card">
-  <img src="{{ '/assets/images/members/li.jpg' | relative_url }}" alt="Yifan Li" />
-  <h2>Yifan Li</h2>
-  <p class="position">Graduate Student</p>
-  <p>B.S. in Chemistry, Nankai University<br/>Joined: 2023</p>
-</div>
-
 <!-- Undergraduate Students -->
 <div class="person-card">
-  <img src="{{ '/assets/images/members/wu.jpg' | relative_url }}" alt="Ruiqi Wu" />
+  <img src="{{ '/assets/images/wu.jpg' | relative_url }}" alt="Ruiqi Wu" />
   <h2>Ruiqi Wu</h2>
   <p class="position">Undergraduate Researcher</p>
   <p>USF Chemistry Major<br/>Joined: 2023</p>
 </div>
 
 <div class="person-card">
-  <img src="{{ '/assets/images/members/meng.jpg' | relative_url }}" alt="Jiashu Meng" />
+  <img src="{{ '/assets/images/meng.jpg' | relative_url }}" alt="Jiashu Meng" />
   <h2>Jiashu Meng</h2>
   <p class="position">Undergraduate Researcher</p>
   <p>USF Chemistry Major<br/>Joined: 2023</p>
 </div>
 
 </div>
+
