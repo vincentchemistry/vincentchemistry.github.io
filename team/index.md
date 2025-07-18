@@ -44,7 +44,7 @@ nav:
 <!-- PI -->
 <div class="person-card">
   <img src="{{ '/assets/images/wenqi-liu.jpg' | relative_url }}" alt="Wenqi Vince Liu" />
-  <h2>Wenqi Vince Liu</h2>
+  <h2>Wenqi Vince Liu-</h2>
   <p class="position">Principal Investigator</p>
   <p>Assistant Professor of Chemistry<br/>University of South Florida</p>
 </div>
