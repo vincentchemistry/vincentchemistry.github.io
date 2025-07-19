@@ -24,20 +24,14 @@ nav:
   gap: 10px;
 }
 
-.search-box input {
-  padding: 10px;
-  width: 100%;
-  max-width: 250px;
-  font-size: 14px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
+.search-box input,
 .filter-dropdown select {
   padding: 10px;
   font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  width: 100%;
+  max-width: 250px;
 }
 
 .year-group {
@@ -76,31 +70,37 @@ nav:
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 </style>
 
 <!-- JAVASCRIPT -->
 <script>
-function filterPublicationsByYear() {
-  let year = document.getElementById('yearFilter').value;
+function updatePublications() {
+  const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+  const selectedYear = document.getElementById('yearFilter').value;
+
   document.querySelectorAll('.year-group').forEach(group => {
-    if (year === 'all' || group.dataset.year === year) {
+    let year = group.dataset.year;
+    let hasVisibleEntry = false;
+
+    group.querySelectorAll('.publication-entry').forEach(entry => {
+      const text = entry.textContent.toLowerCase();
+      const matchSearch = text.includes(searchTerm);
+      const matchYear = (selectedYear === 'all' || year === selectedYear);
+
+      if (matchSearch && matchYear) {
+        entry.classList.remove('hidden');
+        hasVisibleEntry = true;
+      } else {
+        entry.classList.add('hidden');
+      }
+    });
+
+    if (hasVisibleEntry) {
       group.classList.remove('hidden');
     } else {
       group.classList.add('hidden');
-    }
-  });
-}
-
-function searchPublications() {
-  let input = document.getElementById('searchInput').value.toLowerCase();
-  document.querySelectorAll('.publication-entry').forEach(entry => {
-    const text = entry.textContent.toLowerCase();
-    if (text.includes(input)) {
-      entry.classList.remove('hidden');
-    } else {
-      entry.classList.add('hidden');
     }
   });
 }
@@ -113,48 +113,41 @@ function searchPublications() {
   <!-- SEARCH + FILTER -->
   <div class="search-filter-container">
     <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Search Publications" onkeyup="searchPublications()" />
+      <input type="text" id="searchInput" placeholder="Search Publications" oninput="updatePublications()" />
     </div>
     <div class="filter-dropdown">
-      <select id="yearFilter" onchange="filterPublicationsByYear()">
+      <select id="yearFilter" onchange="updatePublications()">
         <option value="all">All Years</option>
         {% assign years = site.data.publications | map: "year" | uniq | sort | reverse %}
         {% for year in years %}
-        <option value="{{ year }}">{{ year }}</option>
+          <option value="{{ year }}">{{ year }}</option>
         {% endfor %}
       </select>
     </div>
   </div>
 
   <!-- PUBLICATIONS GROUPED BY YEAR -->
-  {% assign pubs = site.data.publications %}
-  {% assign total = pubs.size %}
-  {% assign current_year = nil %}
-  {% assign count = 0 %}
-
-  {% for pub in pubs %}
-    {% unless pub.year == current_year %}
-      {% if forloop.index > 1 %}
-        </div> <!-- Close previous year-group -->
-      {% endif %}
-      <div class="year-group" data-year="{{ pub.year }}">
-        <h2>{{ pub.year }}</h2>
-      {% assign current_year = pub.year %}
-    {% endunless %}
-
-    {% assign number = total | minus: count %}
-    <div class="publication-entry y{{ pub.year }} {{ pub.topic }}">
-      <div class="publication-citation">
-        <strong>({{ number }})</strong>
-        {{ pub.authors }} <em>{{ pub.title }}</em>
-        <em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>,
-        <em>{{ pub.volume }}</em>, {{ pub.pages }}.
-        <a href="{{ pub.link }}" target="_blank">[Link]</a>
-      </div>
-      <img class="publication-image" src="{{ pub.image }}" alt="TOC Graphic for {{ pub.title }}">
+  {% assign pubs = site.data.publications | sort: "year" | reverse %}
+  {% assign grouped = pubs | group_by: "year" %}
+  
+  {% for group in grouped %}
+    <div class="year-group" data-year="{{ group.name }}">
+      <h2>{{ group.name }}</h2>
+      {% assign number = group.items.size %}
+      {% for pub in group.items %}
+        <div class="publication-entry y{{ pub.year }} {{ pub.topic }}">
+          <div class="publication-citation">
+            <strong>({{ number }})</strong>
+            {{ pub.authors }} <em>{{ pub.title }}</em>
+            <em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>,
+            <em>{{ pub.volume }}</em>, {{ pub.pages }}.
+            <a href="{{ pub.link }}" target="_blank">[Link]</a>
+          </div>
+          <img class="publication-image" src="{{ pub.image }}" alt="TOC Graphic for {{ pub.title }}">
+        </div>
+        {% assign number = number | minus: 1 %}
+      {% endfor %}
     </div>
-    {% assign count = count | plus: 1 %}
   {% endfor %}
-  </div> <!-- Close last year-group -->
 
 </div>
