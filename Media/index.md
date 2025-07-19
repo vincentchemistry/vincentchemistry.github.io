@@ -49,7 +49,6 @@ nav:
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   background-color: #fff;
-  display: block;
 }
 
 .media-item img,
@@ -70,23 +69,16 @@ nav:
 document.addEventListener("DOMContentLoaded", function () {
   const topicFilter = document.getElementById("topicFilter");
   const mediaFilter = document.getElementById("mediaFilter");
+  const items = document.querySelectorAll(".media-item");
 
   function filterMedia() {
     const selectedTopic = topicFilter.value;
     const selectedMedia = mediaFilter.value;
-    const allSections = document.querySelectorAll(".media-section");
 
-    allSections.forEach(section => {
-      let hasVisible = false;
-      const items = section.querySelectorAll(".media-item");
-      items.forEach(item => {
-        const matchTopic = (selectedTopic === "all" || item.dataset.topic === selectedTopic);
-        const matchMedia = (selectedMedia === "all" || item.dataset.media === selectedMedia);
-        const visible = matchTopic && matchMedia;
-        item.style.display = visible ? "block" : "none";
-        if (visible) hasVisible = true;
-      });
-      section.style.display = hasVisible ? "block" : "none";
+    items.forEach(item => {
+      const matchesTopic = (selectedTopic === "all" || item.dataset.topic === selectedTopic);
+      const matchesMedia = (selectedMedia === "all" || item.dataset.media === selectedMedia);
+      item.style.display = matchesTopic && matchesMedia ? "block" : "none";
     });
   }
 
@@ -117,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 
 <!-- GROUP PHOTOS -->
-<div class="media-section" id="group-photos">
+<div class="media-section">
   <h2>Group Photos</h2>
   <div class="media-grid">
     <div class="media-item" data-topic="group" data-media="image">
@@ -132,7 +124,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 
 <!-- JOURNAL COVERS -->
-<div class="media-section" id="journal-covers">
+<div class="media-section">
   <h2>Journal Covers</h2>
   <div class="media-grid">
     <div class="media-item" data-topic="cover" data-media="image">
@@ -159,7 +151,7 @@ document.addEventListener("DOMContentLoaded", function () {
 </div>
 
 <!-- RESEARCH VIDEOS -->
-<div class="media-section" id="research-videos">
+<div class="media-section">
   <h2>Research Videos</h2>
   <div class="media-grid">
     <div class="media-item" data-topic="video" data-media="video">
