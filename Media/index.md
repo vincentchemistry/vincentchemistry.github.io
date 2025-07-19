@@ -135,31 +135,31 @@ document.addEventListener("DOMContentLoaded", function () {
       <a href="/assets/media/JACS-2020.jpg" data-lightbox="cover" data-title="Cover: XCage-Porp">
         <img src="/assets/media/JACS-2020.jpg" alt="XCage-Porp" loading="lazy">
       </a>
-      <h3>Cover: XCage-Porp</h3>
+      <h3>Cover: JACS-2020</h3>
     </div>
     <div class="media-item" data-topic="cover" data-media="image">
       <a href="/assets/media/JACS-2021.jpg" data-lightbox="cover" data-title="Cover: CD-Gold">
         <img src="/assets/media/JACS-2021.jpg" alt="CD-Gold" loading="lazy">
       </a>
-      <h3>Cover: CD-Gold</h3>
+      <h3>Cover: JACS-2021</h3>
     </div>
     <div class="media-item" data-topic="cover" data-media="image">
       <a href="/assets/media/JACS-2021-2.jpg" data-lightbox="cover" data-title="Cover: Glucose-pCage">
         <img src="/assets/media/JACS-2021-2.jpg" alt="Glucose-pCage" loading="lazy">
       </a>
-      <h3>Cover: Glucose-pCage</h3>
+      <h3>Cover:JACS-2021-2</h3>
     </div>
     <div class="media-item" data-topic="cover" data-media="image">
       <a href="/assets/media/Chem-Sci-2024.png" data-lightbox="cover" data-title="Cover: Oxalate">
         <img src="/assets/media/Chem-Sci-2024.png" alt="Oxalate" loading="lazy">
       </a>
-      <h3>Cover: Oxalate</h3>
+      <h3>Cover: Chem-Sci-2024</h3>
     </div>
     <div class="media-item" data-topic="cover" data-media="image">
       <a href="/assets/media/Trends-Chem.jpg" data-lightbox="cover" data-title="Cover: H-bond">
         <img src="/assets/media/Trends-Chem.jpg" alt="H-bond" loading="lazy">
       </a>
-      <h3>Cover: H-bond</h3>
+      <h3>Cover:Trends-Chem-2025</h3>
     </div>
   </div>
 </div>
