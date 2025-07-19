@@ -113,11 +113,15 @@ document.addEventListener("DOMContentLoaded", function () {
   <h2>Group Photos</h2>
   <div class="media-grid">
     <div class="media-item" data-topic="group" data-media="image">
-      <img src="/assets/media/group_photo_2024.jpg" alt="Group Photo 2024">
+      <a href="/assets/media/group_photo_2024.jpg" data-lightbox="group" data-title="Group Photo – 2024">
+        <img src="/assets/media/group_photo_2024.jpg" alt="Group Photo – 2024" loading="lazy">
+      </a>
       <h3>Group Photo – 2024</h3>
     </div>
     <div class="media-item" data-topic="group" data-media="image">
-      <img src="/assets/media/group_photo_2023.jpg" alt="Group Photo 2023">
+      <a href="/assets/media/group_photo_2023.jpg" data-lightbox="group" data-title="Group Photo – 2023">
+        <img src="/assets/media/group_photo_2023.jpg" alt="Group Photo – 2023" loading="lazy">
+      </a>
       <h3>Group Photo – 2023</h3>
     </div>
   </div>
@@ -128,23 +132,33 @@ document.addEventListener("DOMContentLoaded", function () {
   <h2>Journal Covers</h2>
   <div class="media-grid">
     <div class="media-item" data-topic="cover" data-media="image">
-      <img src="/assets/media/JACS-2020.jpg" alt="XCAGE-Porp">
+      <a href="/assets/media/JACS-2020.jpg" data-lightbox="cover" data-title="Cover: XCage-Porp">
+        <img src="/assets/media/JACS-2020.jpg" alt="XCage-Porp" loading="lazy">
+      </a>
       <h3>Cover: XCage-Porp</h3>
     </div>
     <div class="media-item" data-topic="cover" data-media="image">
-      <img src="/assets/media/JACS-2021.jpg" alt="CD-Gold">
+      <a href="/assets/media/JACS-2021.jpg" data-lightbox="cover" data-title="Cover: CD-Gold">
+        <img src="/assets/media/JACS-2021.jpg" alt="CD-Gold" loading="lazy">
+      </a>
       <h3>Cover: CD-Gold</h3>
     </div>
     <div class="media-item" data-topic="cover" data-media="image">
-      <img src="/assets/media/JACS-2021-2.jpg" alt="glucose-pcage">
+      <a href="/assets/media/JACS-2021-2.jpg" data-lightbox="cover" data-title="Cover: Glucose-pCage">
+        <img src="/assets/media/JACS-2021-2.jpg" alt="Glucose-pCage" loading="lazy">
+      </a>
       <h3>Cover: Glucose-pCage</h3>
     </div>
     <div class="media-item" data-topic="cover" data-media="image">
-      <img src="/assets/media/Chem-Sci-2024.png" alt="Oxalate">
+      <a href="/assets/media/Chem-Sci-2024.png" data-lightbox="cover" data-title="Cover: Oxalate">
+        <img src="/assets/media/Chem-Sci-2024.png" alt="Oxalate" loading="lazy">
+      </a>
       <h3>Cover: Oxalate</h3>
     </div>
     <div class="media-item" data-topic="cover" data-media="image">
-      <img src="/assets/media/Trends-Chem.jpg" alt="H-bond">
+      <a href="/assets/media/Trends-Chem.jpg" data-lightbox="cover" data-title="Cover: H-bond">
+        <img src="/assets/media/Trends-Chem.jpg" alt="H-bond" loading="lazy">
+      </a>
       <h3>Cover: H-bond</h3>
     </div>
   </div>
@@ -155,13 +169,13 @@ document.addEventListener("DOMContentLoaded", function () {
   <h2>Research Videos</h2>
   <div class="media-grid">
     <div class="media-item" data-topic="video" data-media="video">
-      <video controls>
+      <video controls loading="lazy">
         <source src="/assets/media/foldamer-animation.mp4" type="video/mp4">
       </video>
       <h3>Foldamer Binding Mechanism</h3>
     </div>
     <div class="media-item" data-topic="video" data-media="video">
-      <video controls>
+      <video controls loading="lazy">
         <source src="/assets/media/cage-catalysis-demo.mp4" type="video/mp4">
       </video>
       <h3>Cage Catalysis in Water</h3>
