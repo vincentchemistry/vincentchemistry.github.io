@@ -24,31 +24,26 @@ nav:
   gap: 10px;
 }
 
-.search-box input,
+.search-box input {
+  padding: 10px;
+  width: 100%;
+  max-width: 250px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
 .filter-dropdown select {
   padding: 10px;
   font-size: 14px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  width: 100%;
-  max-width: 250px;
-}
-
-.year-group {
-  margin-top: 60px;
-}
-
-.year-group h2 {
-  border-bottom: 2px solid #ccc;
-  padding-bottom: 5px;
-  font-size: 24px;
-  color: #333;
 }
 
 .publication-entry {
   margin-bottom: 60px;
+  border-bottom: 1px solid #ccc;
   padding-bottom: 40px;
-  border-bottom: 1px solid #ddd;
 }
 
 .publication-citation {
@@ -70,37 +65,30 @@ nav:
 }
 
 .hidden {
-  display: none !important;
+  display: none;
 }
 </style>
 
 <!-- JAVASCRIPT -->
 <script>
-function updatePublications() {
-  const searchTerm = document.getElementById('searchInput').value.toLowerCase();
-  const selectedYear = document.getElementById('yearFilter').value;
+function filterPublicationsByYear() {
+  let year = document.getElementById('yearFilter').value;
+  document.querySelectorAll('.publication-entry').forEach(entry => {
+    entry.classList.remove('hidden');
+    if (year !== 'all' && !entry.classList.contains('y' + year)) {
+      entry.classList.add('hidden');
+    }
+  });
+}
 
-  document.querySelectorAll('.year-group').forEach(group => {
-    let year = group.dataset.year;
-    let hasVisibleEntry = false;
-
-    group.querySelectorAll('.publication-entry').forEach(entry => {
-      const text = entry.textContent.toLowerCase();
-      const matchSearch = text.includes(searchTerm);
-      const matchYear = (selectedYear === 'all' || year === selectedYear);
-
-      if (matchSearch && matchYear) {
-        entry.classList.remove('hidden');
-        hasVisibleEntry = true;
-      } else {
-        entry.classList.add('hidden');
-      }
-    });
-
-    if (hasVisibleEntry) {
-      group.classList.remove('hidden');
+function searchPublications() {
+  let input = document.getElementById('searchInput').value.toLowerCase();
+  document.querySelectorAll('.publication-entry').forEach(entry => {
+    const text = entry.textContent.toLowerCase();
+    if (text.includes(input)) {
+      entry.classList.remove('hidden');
     } else {
-      group.classList.add('hidden');
+      entry.classList.add('hidden');
     }
   });
 }
@@ -113,41 +101,32 @@ function updatePublications() {
   <!-- SEARCH + FILTER -->
   <div class="search-filter-container">
     <div class="search-box">
-      <input type="text" id="searchInput" placeholder="Search Publications" oninput="updatePublications()" />
+      <input type="text" id="searchInput" placeholder="Search Publications" onkeyup="searchPublications()" />
     </div>
     <div class="filter-dropdown">
-      <select id="yearFilter" onchange="updatePublications()">
+      <select id="yearFilter" onchange="filterPublicationsByYear()">
         <option value="all">All Years</option>
         {% assign years = site.data.publications | map: "year" | uniq | sort | reverse %}
         {% for year in years %}
-          <option value="{{ year }}">{{ year }}</option>
+        <option value="{{ year }}">{{ year }}</option>
         {% endfor %}
       </select>
     </div>
   </div>
 
-  <!-- PUBLICATIONS GROUPED BY YEAR -->
-  {% assign pubs = site.data.publications | sort: "year" | reverse %}
-  {% assign grouped = pubs | group_by: "year" %}
-  
-  {% for group in grouped %}
-    <div class="year-group" data-year="{{ group.name }}">
-      <h2>{{ group.name }}</h2>
-      {% assign number = group.items.size %}
-      {% for pub in group.items %}
-        <div class="publication-entry y{{ pub.year }} {{ pub.topic }}">
-          <div class="publication-citation">
-            <strong>({{ number }})</strong>
-            {{ pub.authors }} <em>{{ pub.title }}</em>
-            <em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>,
-            <em>{{ pub.volume }}</em>, {{ pub.pages }}.
-            <a href="{{ pub.link }}" target="_blank">[Link]</a>
-          </div>
-          <img class="publication-image" src="{{ pub.image }}" alt="TOC Graphic for {{ pub.title }}">
-        </div>
-        {% assign number = number | minus: 1 %}
-      {% endfor %}
+  <!-- LOOP THROUGH YAML IN ORIGINAL ORDER -->
+  {% assign pubs = site.data.publications %}
+  {% for pub in pubs %}
+  <div class="publication-entry y{{ pub.year }} {{ pub.topic }}">
+    <div class="publication-citation">
+      <strong>({{ forloop.length | minus: forloop.index0 }})</strong>
+      {{ pub.authors }} <em>{{ pub.title }}</em>
+      <em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>,
+      <em>{{ pub.volume }}</em>, {{ pub.pages }}.
+      <a href="{{ pub.link }}" target="_blank">[Link]</a>
     </div>
+    <img class="publication-image" src="{{ pub.image }}" alt="TOC Graphic for {{ pub.title }}">
+  </div>
   {% endfor %}
 
 </div>
