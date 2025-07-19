@@ -491,6 +491,7 @@
   flex-wrap: wrap;
   gap: 15px;
   margin-bottom: 30px;
+  align-items: center;
 }
 
 .media-filters select,
@@ -509,18 +510,45 @@
   gap: 20px;
 }
 
-.media-item {
+/* Grid view by default */
+.media-container.grid-view .media-item {
   width: calc(33% - 20px);
+  display: block;
+}
+
+/* List view styling */
+.media-container.list-view {
+  flex-direction: column;
+}
+
+.media-container.list-view .media-item {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+}
+
+.media-item {
   border: 1px solid #eee;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   display: none;
+  background-color: #fff;
 }
 
-.media-item img, .media-item video {
+.media-item img,
+.media-item video {
   width: 100%;
   border-radius: 8px;
+}
+
+/* List view media resizing */
+.media-container.list-view .media-item img,
+.media-container.list-view .media-item video {
+  width: 300px;
+  max-height: 200px;
+  object-fit: cover;
 }
 
 .media-item h3 {
@@ -528,8 +556,9 @@
   font-size: 16px;
 }
 
-.layout-toggle {
-  margin-left: auto;
+.media-info {
+  flex: 1;
+  padding: 5px;
 }
 </style>
 
@@ -538,7 +567,11 @@ document.addEventListener("DOMContentLoaded", function () {
   const topicFilter = document.getElementById("topicFilter");
   const mediaFilter = document.getElementById("mediaFilter");
   const layoutToggle = document.getElementById("layoutToggle");
+  const container = document.querySelector(".media-container");
   const items = document.querySelectorAll(".media-item");
+
+  // Default layout
+  container.classList.add("grid-view");
 
   function filterMedia() {
     const topic = topicFilter.value;
@@ -552,7 +585,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function toggleLayout() {
-    const container = document.querySelector(".media-container");
+    container.classList.toggle("grid-view");
     container.classList.toggle("list-view");
   }
 
@@ -585,28 +618,36 @@ document.addEventListener("DOMContentLoaded", function () {
   <button id="layoutToggle" class="layout-toggle">Toggle Layout</button>
 </div>
 
-<div class="media-container">
+<div class="media-container grid-view">
 
   <!-- GROUP PHOTOS -->
   <div class="media-item" data-topic="group" data-media="image">
     <img src="/assets/media/group_photo_2024.jpg" alt="Group Photo 2024">
-    <h3>Group Photo – 2024</h3>
+    <div class="media-info">
+      <h3>Group Photo – 2024</h3>
+    </div>
   </div>
 
   <div class="media-item" data-topic="group" data-media="image">
     <img src="/assets/media/group_photo_2023.jpg" alt="Group Photo 2023">
-    <h3>Group Photo – 2023</h3>
+    <div class="media-info">
+      <h3>Group Photo – 2023</h3>
+    </div>
   </div>
 
   <!-- JOURNAL COVERS -->
   <div class="media-item" data-topic="cover" data-media="image">
     <img src="/assets/media/cover_macrocycle.jpg" alt="Macrocycle Cover">
-    <h3>Cover: Pyridinium Macrocycle</h3>
+    <div class="media-info">
+      <h3>Cover: Pyridinium Macrocycle</h3>
+    </div>
   </div>
 
   <div class="media-item" data-topic="cover" data-media="image">
     <img src="/assets/media/cover_cage.jpg" alt="Cationic Cage Cover">
-    <h3>Cover: Tricationic Hydrogen Bonding Cage</h3>
+    <div class="media-info">
+      <h3>Cover: Tricationic Hydrogen Bonding Cage</h3>
+    </div>
   </div>
 
   <!-- RESEARCH VIDEOS -->
@@ -614,18 +655,21 @@ document.addEventListener("DOMContentLoaded", function () {
     <video controls="">
       <source src="/assets/media/foldamer-animation.mp4" type="video/mp4"></source>
     </video>
-    <h3>Foldamer Binding Mechanism</h3>
+    <div class="media-info">
+      <h3>Foldamer Binding Mechanism</h3>
+    </div>
   </div>
 
   <div class="media-item" data-topic="video" data-media="video">
     <video controls="">
       <source src="/assets/media/cage-catalysis-demo.mp4" type="video/mp4"></source>
     </video>
-    <h3>Cage Catalysis in Water</h3>
+    <div class="media-info">
+      <h3>Cage Catalysis in Water</h3>
+    </div>
   </div>
 
 </div>
-
 
       </div>
     </main>
