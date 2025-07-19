@@ -6,7 +6,7 @@ nav:
   order: 1
   tooltip: About Prof. Liu
 ---
-## Dr. Wenqi Liu-1
+## Dr. Wenqi Liu
 <div style="overflow: auto; margin-top: 0.3em; margin-bottom: 1.5em; line-height: 1.5; font-size: 1.02em;">
   <img src="/assets/images/wenqi-liu.jpg" alt="Wenqi Vince Liu" style="float: left; width: 180px; margin-right: 20px; margin-bottom: 10px; border-radius: 10px;">
   <div style="text-align: justify;">
