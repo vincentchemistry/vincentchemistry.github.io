@@ -96,11 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const topicFilter = document.getElementById("topicFilter");
   const mediaFilter = document.getElementById("mediaFilter");
   const items = document.querySelectorAll(".media-item");
-
-  if (!topicFilter || !mediaFilter) {
-    console.error("Filter dropdown(s) not found.");
-    return;
-  }
+  const sections = document.querySelectorAll(".media-section");
 
   function filterMedia() {
     const selectedTopic = topicFilter.value;
@@ -111,12 +107,18 @@ document.addEventListener("DOMContentLoaded", function () {
       const matchesMedia = (selectedMedia === "all" || item.dataset.media === selectedMedia);
       item.style.display = matchesTopic && matchesMedia ? "block" : "none";
     });
+
+    sections.forEach(section => {
+      const visibleItems = section.querySelectorAll(".media-item:not([style*='display: none'])");
+      section.style.display = visibleItems.length > 0 ? "block" : "none";
+    });
   }
 
   topicFilter.addEventListener("change", filterMedia);
   mediaFilter.addEventListener("change", filterMedia);
 });
 </script>
+
 
 <h1>Media</h1>
 
