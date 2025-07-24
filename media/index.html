@@ -492,13 +492,19 @@
 
     <main style="padding-top: 100px;">
       <div style="max-width: 960px; margin: 0 auto; padding: 0 20px;">
-        <style>
+        <!-- STYLES -->
+<style>
 .media-filters {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
   margin-bottom: 30px;
   align-items: center;
+}
+
+.media-filters div {
+  display: flex;
+  flex-direction: column;
 }
 
 .media-filters select {
@@ -528,12 +534,27 @@
 }
 
 .media-item {
-  width: calc(33% - 20px);
+  flex: 1 1 calc(33.333% - 20px);
+  max-width: calc(33.333% - 20px);
   border: 1px solid #eee;
   padding: 10px;
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .media-item {
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .media-item {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
 }
 
 .media-item img,
@@ -550,11 +571,22 @@
 }
 </style>
 
+<!-- LIGHTBOX2 SUPPORT -->
+<link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
+
+<script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox-plus-jquery.min.js"></script>
+
+<!-- FILTER SCRIPT -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
   const topicFilter = document.getElementById("topicFilter");
   const mediaFilter = document.getElementById("mediaFilter");
   const items = document.querySelectorAll(".media-item");
+
+  if \(!topicFilter \|| !mediaFilter) {
+    console.error("Filter dropdown(s) not found.");
+    return;
+  }
 
   function filterMedia() {
     const selectedTopic = topicFilter.value;
@@ -574,23 +606,26 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <h1>Media</h1>
 
+<!-- FILTER CONTROLS -->
 <div class="media-filters">
-  <label>Topic:
+  <div>
+    <label for="topicFilter">Topic:</label>
     <select id="topicFilter">
       <option value="all">All Topics</option>
       <option value="group">Group Photos</option>
       <option value="cover">Journal Covers</option>
       <option value="video">Research Videos</option>
     </select>
-  </label>
+  </div>
 
-  <label>Media Type:
+  <div>
+    <label for="mediaFilter">Media Type:</label>
     <select id="mediaFilter">
       <option value="all">All Media</option>
       <option value="image">Images</option>
       <option value="video">Videos</option>
     </select>
-  </label>
+  </div>
 </div>
 
 <!-- GROUP PHOTOS -->
@@ -632,7 +667,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <a href="/assets/media/JACS-2021-2.jpg" data-lightbox="cover" data-title="Cover: Glucose-pCage">
         <img src="/assets/media/JACS-2021-2.jpg" alt="Glucose-pCage" loading="lazy">
       </a>
-      <h3>Cover:JACS-2021-2</h3>
+      <h3>Cover: JACS-2021-2</h3>
     </div>
     <div class="media-item" data-topic="cover" data-media="image">
       <a href="/assets/media/Chem-Sci-2024.png" data-lightbox="cover" data-title="Cover: Oxalate">
@@ -644,7 +679,7 @@ document.addEventListener("DOMContentLoaded", function () {
       <a href="/assets/media/Trends-Chem.jpg" data-lightbox="cover" data-title="Cover: H-bond">
         <img src="/assets/media/Trends-Chem.jpg" alt="H-bond" loading="lazy">
       </a>
-      <h3>Cover:Trends-Chem-2025</h3>
+      <h3>Cover: Trends-Chem-2025</h3>
     </div>
   </div>
 </div>
