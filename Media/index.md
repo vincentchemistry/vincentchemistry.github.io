@@ -94,16 +94,34 @@ document.addEventListener("DOMContentLoaded", function () {
   <div class="media-header">Group Photos</div>
   <div class="media-grid">
     <div class="media-item">
-      <a href="/assets/media/group_photo_2024.jpg" data-lightbox="group" data-title="Group Photo – 2024">
-        <img src="/assets/media/group_photo_2024.jpg" alt="Group Photo – 2024" loading="lazy">
+      <a href="/assets/media/12.14.2024.png" data-lightbox="group" data-title="2024 Zoo Tampa">
+        <img src="/assets/media/12.14.2024.png" alt="2024 Zoo Tampa" loading="lazy">
       </a>
-      <h3>Group Photo – 2024</h3>
+      <h3>2024 Zoo Tampa</h3>
+      </div>
+    <div class="media-item">
+      <a href="/assets/media/09.12.2024.png" data-lightbox="group" data-title="2024 bowling night at Bowlero">
+        <img src="/assets/media/09.12.2024.png" alt="2024 bowling night at Bowlero" loading="lazy">
+      </a>
+      <h3>2024 bowling night at Bowlero</h3>
+       </div>
+    <div class="media-item">
+      <a href="/assets/media/03.30.2024.png" data-lightbox="group" data-title="2024 Lettuce Lake Park">
+        <img src="/assets/media/03.30.2024.png" alt="2024 Lettuce Lake Park" loading="lazy">
+      </a>
+      <h3>2024 Lettuce Lake Park</h3>
     </div>
     <div class="media-item">
-      <a href="/assets/media/group_photo_2023.jpg" data-lightbox="group" data-title="Group Photo – 2023">
-        <img src="/assets/media/group_photo_2023.jpg" alt="Group Photo – 2023" loading="lazy">
+      <a href="/assets/media/12.15.2023.png" data-lightbox="group" data-title="2023 Weeki Wachee Spring State Park">
+        <img src="/assets/media/12.15.2023.png" alt="2023 Weeki Wachee Spring State Park" loading="lazy">
       </a>
-      <h3>Group Photo – 2023</h3>
+      <h3>2023 Weeki Wachee Spring State Park</h3>
+       </div>
+    <div class="media-item">
+      <a href="/assets/media/06.15.2023.png" data-lightbox="group" data-title="2023 First Group Photo">
+        <img src="/assets/media06.15.2023.png" alt="2023 First Group Photo" loading="lazy">
+      </a>
+      <h3>2023 First Group Photo</h3>
     </div>
   </div>
 </div>
@@ -113,22 +131,10 @@ document.addEventListener("DOMContentLoaded", function () {
   <div class="media-header">Journal Covers</div>
   <div class="media-grid">
     <div class="media-item">
-      <a href="/assets/media/JACS-2020.jpg" data-lightbox="cover" data-title="Cover: XCage-Porp">
-        <img src="/assets/media/JACS-2020.jpg" alt="XCage-Porp" loading="lazy">
+      <a href="/assets/media/Trends-Chem.jpg" data-lightbox="cover" data-title="Cover: H-bond">
+        <img src="/assets/media/Trends-Chem.jpg" alt="H-bond" loading="lazy">
       </a>
-      <h3>Cover: JACS-2020</h3>
-    </div>
-    <div class="media-item">
-      <a href="/assets/media/JACS-2021.jpg" data-lightbox="cover" data-title="Cover: CD-Gold">
-        <img src="/assets/media/JACS-2021.jpg" alt="CD-Gold" loading="lazy">
-      </a>
-      <h3>Cover: JACS-2021</h3>
-    </div>
-    <div class="media-item">
-      <a href="/assets/media/JACS-2021-2.jpg" data-lightbox="cover" data-title="Cover: Glucose-pCage">
-        <img src="/assets/media/JACS-2021-2.jpg" alt="Glucose-pCage" loading="lazy">
-      </a>
-      <h3>Cover: JACS-2021-2</h3>
+      <h3>Cover: Trends-Chem-2025</h3>
     </div>
     <div class="media-item">
       <a href="/assets/media/Chem-Sci-2024.png" data-lightbox="cover" data-title="Cover: Oxalate">
@@ -136,11 +142,23 @@ document.addEventListener("DOMContentLoaded", function () {
       </a>
       <h3>Cover: Chem-Sci-2024</h3>
     </div>
-    <div class="media-item">
-      <a href="/assets/media/Trends-Chem.jpg" data-lightbox="cover" data-title="Cover: H-bond">
-        <img src="/assets/media/Trends-Chem.jpg" alt="H-bond" loading="lazy">
+       <div class="media-item">
+      <a href="/assets/media/JACS-2021-2.jpg" data-lightbox="cover" data-title="Cover: Glucose-pCage">
+        <img src="/assets/media/JACS-2021-2.jpg" alt="Glucose-pCage" loading="lazy">
       </a>
-      <h3>Cover: Trends-Chem-2025</h3>
+      <h3>Cover: JACS-2021-2</h3>
+    </div>
+        <div class="media-item">
+      <a href="/assets/media/JACS-2021.jpg" data-lightbox="cover" data-title="Cover: CD-Gold">
+        <img src="/assets/media/JACS-2021.jpg" alt="CD-Gold" loading="lazy">
+      </a>
+      <h3>Cover: JACS-2021</h3>
+    </div>
+    <div class="media-item">
+      <a href="/assets/media/JACS-2020.jpg" data-lightbox="cover" data-title="Cover: XCage-Porp">
+        <img src="/assets/media/JACS-2020.jpg" alt="XCage-Porp" loading="lazy">
+      </a>
+      <h3>Cover: JACS-2020</h3>
     </div>
   </div>
 </div>
