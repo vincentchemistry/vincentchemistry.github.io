@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
        </div>
     <div class="media-item">
       <a href="/assets/media/06.15.2023.png" data-lightbox="group" data-title="2023 First Group Photo">
-        <img src="/assets/media06.15.2023.png" alt="2023 First Group Photo" loading="lazy">
+        <img src="/assets/media/06.15.2023.png" alt="2023 First Group Photo" loading="lazy">
       </a>
       <h3>2023 First Group Photo</h3>
     </div>
