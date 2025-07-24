@@ -30,9 +30,13 @@ nav:
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
+  justify-content: center;
 }
 
 .media-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   flex: 1 1 calc(33.333% - 20px);
   max-width: calc(33.333% - 20px);
   border: 1px solid #eee;
@@ -40,6 +44,7 @@ nav:
   border-radius: 10px;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
   background-color: #fff;
+  text-align: center;
 }
 
 @media (max-width: 768px) {
@@ -58,10 +63,11 @@ nav:
 
 .media-item img,
 .media-item video {
-  width: 100%;
-  border-radius: 8px;
+  max-width: 100%;
   height: auto;
+  border-radius: 8px;
   display: block;
+  margin: 0 auto;
 }
 
 .media-item h3 {
@@ -69,6 +75,7 @@ nav:
   font-size: 16px;
 }
 </style>
+
 
 <!-- LIGHTBOX2 SUPPORT -->
 <link href="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/css/lightbox.min.css" rel="stylesheet">
