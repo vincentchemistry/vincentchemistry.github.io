@@ -494,43 +494,27 @@
       <div style="max-width: 960px; margin: 0 auto; padding: 0 20px;">
         <!-- STYLES -->
 <style>
-.media-filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-bottom: 30px;
-  align-items: center;
-}
-
-.media-filters div {
-  display: flex;
-  flex-direction: column;
-}
-
-.media-filters select {
-  padding: 10px;
-  font-size: 14px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  background: white;
-  cursor: pointer;
-}
-
 .media-section {
-  margin-top: 60px;
+  margin-top: 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
-.media-section h2 {
-  font-size: 24px;
-  border-bottom: 2px solid #eee;
-  padding-bottom: 10px;
-  margin-bottom: 30px;
+.media-header {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #f7f7f7;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
 }
 
 .media-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  padding: 20px;
 }
 
 .media-item {
@@ -576,70 +560,32 @@
 
 <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox-plus-jquery.min.js"></script>
 
-<!-- FILTER SCRIPT -->
+<!-- TOGGLE SCRIPT -->
 <script>
 document.addEventListener("DOMContentLoaded", function () {
-  const topicFilter = document.getElementById("topicFilter");
-  const mediaFilter = document.getElementById("mediaFilter");
-  const items = document.querySelectorAll(".media-item");
-  const sections = document.querySelectorAll(".media-section");
-
-  function filterMedia() {
-    const selectedTopic = topicFilter.value;
-    const selectedMedia = mediaFilter.value;
-
-    items.forEach(item => {
-      const matchesTopic = \(selectedTopic === \"all\" \|| item.dataset.topic === selectedTopic);
-      const matchesMedia = \(selectedMedia === \"all\" \|| item.dataset.media === selectedMedia);
-      item.style.display = matchesTopic && matchesMedia ? "block" : "none";
+  const headers = document.querySelectorAll(".media-header");
+  headers.forEach(header => {
+    header.addEventListener("click", function () {
+      const content = this.nextElementSibling;
+      content.style.display = content.style.display === "none" ? "flex" : "none";
     });
-
-    sections.forEach(section => {
-      const visibleItems = section.querySelectorAll(".media-item:not([style*='display: none'])");
-      section.style.display = visibleItems.length > 0 ? "block" : "none";
-    });
-  }
-
-  topicFilter.addEventListener("change", filterMedia);
-  mediaFilter.addEventListener("change", filterMedia);
+  });
 });
 </script>
 
 <h1>Media</h1>
 
-<!-- FILTER CONTROLS -->
-<div class="media-filters">
-  <div>
-    <label for="topicFilter">Topic:</label>
-    <select id="topicFilter">
-      <option value="all">All Topics</option>
-      <option value="group">Group Photos</option>
-      <option value="cover">Journal Covers</option>
-      <option value="video">Research Videos</option>
-    </select>
-  </div>
-
-  <div>
-    <label for="mediaFilter">Media Type:</label>
-    <select id="mediaFilter">
-      <option value="all">All Media</option>
-      <option value="image">Images</option>
-      <option value="video">Videos</option>
-    </select>
-  </div>
-</div>
-
 <!-- GROUP PHOTOS -->
 <div class="media-section">
-  <h2>Group Photos</h2>
+  <div class="media-header">Group Photos</div>
   <div class="media-grid">
-    <div class="media-item" data-topic="group" data-media="image">
+    <div class="media-item">
       <a href="/assets/media/group_photo_2024.jpg" data-lightbox="group" data-title="Group Photo – 2024">
         <img src="/assets/media/group_photo_2024.jpg" alt="Group Photo – 2024" loading="lazy">
       </a>
       <h3>Group Photo – 2024</h3>
     </div>
-    <div class="media-item" data-topic="group" data-media="image">
+    <div class="media-item">
       <a href="/assets/media/group_photo_2023.jpg" data-lightbox="group" data-title="Group Photo – 2023">
         <img src="/assets/media/group_photo_2023.jpg" alt="Group Photo – 2023" loading="lazy">
       </a>
@@ -650,33 +596,33 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <!-- JOURNAL COVERS -->
 <div class="media-section">
-  <h2>Journal Covers</h2>
+  <div class="media-header">Journal Covers</div>
   <div class="media-grid">
-    <div class="media-item" data-topic="cover" data-media="image">
+    <div class="media-item">
       <a href="/assets/media/JACS-2020.jpg" data-lightbox="cover" data-title="Cover: XCage-Porp">
         <img src="/assets/media/JACS-2020.jpg" alt="XCage-Porp" loading="lazy">
       </a>
       <h3>Cover: JACS-2020</h3>
     </div>
-    <div class="media-item" data-topic="cover" data-media="image">
+    <div class="media-item">
       <a href="/assets/media/JACS-2021.jpg" data-lightbox="cover" data-title="Cover: CD-Gold">
         <img src="/assets/media/JACS-2021.jpg" alt="CD-Gold" loading="lazy">
       </a>
       <h3>Cover: JACS-2021</h3>
     </div>
-    <div class="media-item" data-topic="cover" data-media="image">
+    <div class="media-item">
       <a href="/assets/media/JACS-2021-2.jpg" data-lightbox="cover" data-title="Cover: Glucose-pCage">
         <img src="/assets/media/JACS-2021-2.jpg" alt="Glucose-pCage" loading="lazy">
       </a>
       <h3>Cover: JACS-2021-2</h3>
     </div>
-    <div class="media-item" data-topic="cover" data-media="image">
+    <div class="media-item">
       <a href="/assets/media/Chem-Sci-2024.png" data-lightbox="cover" data-title="Cover: Oxalate">
         <img src="/assets/media/Chem-Sci-2024.png" alt="Oxalate" loading="lazy">
       </a>
       <h3>Cover: Chem-Sci-2024</h3>
     </div>
-    <div class="media-item" data-topic="cover" data-media="image">
+    <div class="media-item">
       <a href="/assets/media/Trends-Chem.jpg" data-lightbox="cover" data-title="Cover: H-bond">
         <img src="/assets/media/Trends-Chem.jpg" alt="H-bond" loading="lazy">
       </a>
@@ -687,15 +633,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <!-- RESEARCH VIDEOS -->
 <div class="media-section">
-  <h2>Research Videos</h2>
+  <div class="media-header">Research Videos</div>
   <div class="media-grid">
-    <div class="media-item" data-topic="video" data-media="video">
+    <div class="media-item">
       <video controls="" loading="lazy">
         <source src="/assets/media/foldamer-animation.mp4" type="video/mp4"></source>
       </video>
       <h3>Foldamer Binding Mechanism</h3>
     </div>
-    <div class="media-item" data-topic="video" data-media="video">
+    <div class="media-item">
       <video controls="" loading="lazy">
         <source src="/assets/media/cage-catalysis-demo.mp4" type="video/mp4"></source>
       </video>
