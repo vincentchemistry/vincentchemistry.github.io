@@ -176,15 +176,21 @@ document.addEventListener("DOMContentLoaded", function () {
   <div class="media-grid">
     <div class="media-item">
       <video controls loading="lazy">
-        <source src="/assets/media/foldamer-animation.mp4" type="video/mp4">
+        <source src="/assets/media/5-li.mp4" type="video/mp4">
       </video>
-      <h3>Foldamer Binding Mechanism</h3>
+      <h3>Lithium receptor</h3>
     </div>
     <div class="media-item">
       <video controls loading="lazy">
-        <source src="/assets/media/cage-catalysis-demo.mp4" type="video/mp4">
+        <source src="/assets/media/glu-ant.mp4" type="video/mp4">
       </video>
-      <h3>Cage Catalysis in Water</h3>
+      <h3>Glucose receptor</h3>
+    </div>
+       <div class="media-item">
+      <video controls loading="lazy">
+        <source src="/assets/media/pin-oxa.mp4" type="video/mp4">
+      </video>
+      <h3>Oxalate receptor</h3>
     </div>
   </div>
 </div>
