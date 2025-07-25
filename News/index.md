@@ -7,7 +7,7 @@ nav:
   tooltip: Latest lab updates
 ---
 # News 🗞️
-- **07‑11‑2025**: Our group received an **NSF-CBET funding** supporting research on synthetic receptors for lithium ion.
+- **07‑01‑2025**: Our group received an **NSF-CBET funding** supporting research on synthetic receptors for lithium ion.
 - **05‑19‑2025**: Welcome **Angus Rhoton** from Hillsborough Community College to join our group as an REU student.
 - **05‑07‑2025**: Congratulations to **Alexander Mariscal** for his paper published in *Chem. Eur. J.*
 - **03‑23‑2025**: Our group received a **New Researcher Grant!**
