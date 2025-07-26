@@ -97,81 +97,90 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <!-- 2025 -->
 <div class="media-section">
-  <div class="media-header">2025: Outreach Highlights</div>
+  <div class="media-header">2025 Outreach Highlights</div>
   <div class="media-grid">
     <div class="media-item">
-      <a href="/assets/media/12.14.2024.png" data-lightbox="group-2025" data-title="USF Outward Bound - Zoo Tampa">
-        <img src="/assets/media/12.14.2024.png" alt="USF Outward Bound at Zoo Tampa" loading="lazy">
+      <a href="/assets/media/2025.07.07.png" data-lightbox="group-2025" data-title="2025-07.07">
+        <img src="/assets/media/2025.07.07.png" alt="USF Outward Bound" loading="lazy">
       </a>
-      <h3>USF Outward Bound</h3>
+      <h3>2025 USF Outward Bound</h3>
     </div>
     <div class="media-item">
-      <a href="/assets/media/09.12.2024.png" data-lightbox="group-2025" data-title="St. Pete Science Festival - Bowlero Night">
-        <img src="/assets/media/09.12.2024.png" alt="St. Pete Science Festival" loading="lazy">
+      <a href="/assets/media/2025.02.08.png" data-lightbox="group-2025" data-title="St. Pete Science Festival">
+        <img src="/assets/media/2025.02.08.png" alt="St. Pete Science Festival" loading="lazy">
       </a>
-      <h3>St. Pete Science Festival</h3>
+      <h3>2025 St. Pete Science Festival</h3>
     </div>
   </div>
 </div>
 
 <!-- 2024 -->
 <div class="media-section">
-  <div class="media-header">2024: Outreach Events</div>
+  <div class="media-header">2024 Outreach Highlights</div>
   <div class="media-grid">
     <div class="media-item">
-      <a href="/assets/media/12.14.2024.png" data-lightbox="group-2024" data-title="USF Outward Bound - Zoo Tampa">
-        <img src="/assets/media/12.14.2024.png" alt="USF Outward Bound at Zoo Tampa" loading="lazy">
+      <a href="/assets/media/2024.07.01.png" data-lightbox="group-2024" data-title="USF Outward Bound">
+        <img src="/assets/media/12.14.2024.png" alt="USF Outward Bound" loading="lazy">
       </a>
-      <h3>USF Outward Bound</h3>
+      <h3>2024 USF Outward Bound</h3>
     </div>
     <div class="media-item">
-      <a href="/assets/media/09.12.2024.png" data-lightbox="group-2024" data-title="Dunedin Middle School Visit">
-        <img src="/assets/media/09.12.2024.png" alt="Dunedin Middle School" loading="lazy">
+      <a href="/assets/media/2024.04.05.png" data-lightbox="group-2024" data-title="Dunedin Middle School">
+        <img src="/assets/media/2024.04.05.png" alt="Dunedin Middle School" loading="lazy">
       </a>
-      <h3>Dunedin Middle School</h3>
+      <h3>2024 Dunedin Middle School</h3>
     </div>
   </div>
 </div>
 
 <!-- 2023 -->
 <div class="media-section">
-  <div class="media-header">2023: Middle School Engagements</div>
+  <div class="media-header">2023 Outreach Highlights</div>
   <div class="media-grid">
     <div class="media-item">
-      <a href="/assets/media/12.14.2024.png" data-lightbox="group-2023" data-title="Seminole Middle School">
-        <img src="/assets/media/12.14.2024.png" alt="Seminole Middle School" loading="lazy">
+      <a href="/assets/media/2023.11.17.png" data-lightbox="group-2023" data-title="Seminole Middle School">
+        <img src="/assets/media/2023.11.17.png" alt="Seminole Middle School" loading="lazy">
       </a>
-      <h3>Seminole Middle School</h3>
+      <h3>2023 Seminole Middle School</h3>
     </div>
     <div class="media-item">
-      <a href="/assets/media/09.12.2024.png" data-lightbox="group-2023" data-title="Oak Grove Middle School">
-        <img src="/assets/media/09.12.2024.png" alt="Oak Grove Middle School" loading="lazy">
+      <a href="/assets/media/2023.10.27.png" data-lightbox="group-2023" data-title="Oak Grove Middle School">
+        <img src="/assets/2023.10.27.png.png" alt="Oak Grove Middle School" loading="lazy">
       </a>
-      <h3>Oak Grove Middle School</h3>
+      <h3>2023 Oak Grove Middle School</h3>
     </div>
     <div class="media-item">
-      <a href="/assets/media/12.14.2024.png" data-lightbox="group-2023" data-title="USF Upward Bound">
-        <img src="/assets/media/12.14.2024.png" alt="USF Upward Bound" loading="lazy">
+      <a href="/assets/media/07.05.2023.png" data-lightbox="group-2023" data-title="USF Upward Bound">
+        <img src="/assets/media/07.05.2023.png" alt="USF Upward Bound" loading="lazy">
       </a>
-      <h3>USF Upward Bound</h3>
+      <h3>2023 USF Upward Bound</h3>
     </div>
     <div class="media-item">
-      <a href="/assets/media/12.14.2024.png" data-lightbox="group-2023" data-title="Thurgood Marshall Middle School">
-        <img src="/assets/media/12.14.2024.png" alt="Thurgood Marshall Middle School" loading="lazy">
+      <a href="/assets/media/2023.3.31.png" data-lightbox="group-2023" data-title="Thurgood Marshall Middle School">
+        <img src="/assets/media/2023.3.31.png" alt="Thurgood Marshall Middle School" loading="lazy">
       </a>
-      <h3>Thurgood Marshall Middle School</h3>
+      <h3>2023 Thurgood Marshall Middle School</h3>
     </div>
     <div class="media-item">
-      <a href="/assets/media/12.14.2024.png" data-lightbox="group-2023" data-title="Morgan Fitzgerald Middle School">
-        <img src="/assets/media/12.14.2024.png" alt="Morgan Fitzgerald Middle School" loading="lazy">
+      <a href="/assets/media/2023.02.24.png" data-lightbox="group-2023" data-title="Morgan Fitzgerald Middle School">
+        <img src="/assets/media/2023.02.24.png" alt="Morgan Fitzgerald Middle School" loading="lazy">
       </a>
-      <h3>Morgan Fitzgerald Middle School</h3>
+      <h3>2023 Morgan Fitzgerald Middle School</h3>
     </div>
+<!-- 2022 -->
+<div class="media-section">
+  <div class="media-header">2022 Outreach Highlights</div>
+  <div class="media-grid">
     <div class="media-item">
-      <a href="/assets/media/12.14.2024.png" data-lightbox="group-2023" data-title="Tyrone Middle School">
-        <img src="/assets/media/12.14.2024.png" alt="Tyrone Middle School" loading="lazy">
+      <a href="/assets/media/2022.11.18.png" data-lightbox="group-2023" data-title="Oak Grove Middle School">
+        <img src="/assets/media/2022.11.18.png" alt="Oak Grove Middle School" loading="lazy">
       </a>
-      <h3>Tyrone Middle School</h3>
+          <h3>2022 Oak Grove Middle School</h3>
+    <div class="media-item">
+      <a href="/assets/media/2022.10.14.png" data-lightbox="group-2023" data-title="Tyrone Middle School">
+        <img src="/assets/media/2022.10.14.png" alt="Tyrone Middle School" loading="lazy">
+      </a>
+      <h3>2022 Tyrone Middle School</h3>
     </div>
   </div>
 </div>
