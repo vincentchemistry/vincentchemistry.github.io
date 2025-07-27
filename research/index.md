@@ -51,7 +51,7 @@ The global demand for critical raw materials—such as lithium, rare-earth eleme
 
 
 <div class="figure-row">
-  <img src="/assets/images/cd-gold" alt="Selective Separation of Precious Metals" style="max-width: 100%; border-radius: 8px;">
+  <img src="/assets/images/cd-gold.png" alt="Selective Separation of Precious Metals" style="max-width: 100%; border-radius: 8px;">
   <p class="caption">Figure 5. Supramolecular gold recovery. [Nat. Commum. 2023, 14, 1284]</p>
 </div>
 
