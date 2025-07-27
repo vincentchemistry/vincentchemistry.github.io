@@ -21,11 +21,11 @@ Group members receive cross-disciplinary training in chemistry, materials, and b
 
 ## Hydrogen Bonding in Water
 
-Hydrogen bonding constitutes a fundamental driving force in biological recognition processes. Nevertheless, reproducing its strength and selectivity within aqueous environments continues to pose a considerable challenge. In water, solvent molecules compete for hydrogen bond donors and acceptors on both the receptor and the substrate, thereby effectively disrupting the targeted intermolecular interactions and reducing the overall binding affinity between them.
+Hydrogen bonding constitutes a fundamental driving force in biological recognition processes. Nevertheless, **reproducing** its strength and selectivity within aqueous environments continues to pose a considerable challenge. In water, solvent molecules **compete** for hydrogen bond donors and acceptors on both the receptor and the substrate, thereby effectively **disrupting** the targeted intermolecular interactions and reducing the overall binding affinity between them.
 
 To address this challenge, we developed **dynamic covalent strategies** that pair imine formation with oxidation to yield macrocyclic and cage-like receptors. These structures are **highly modular**, allowing fine-tuning of **hydrophobic surfaces**, **electrostatics**, and **binding pocket geometry** for optimal function in water.
 
-This approach revalidates hydrogen bonding as a viable interaction for aqueous molecular recognition, with potential applications in **drug delivery**, **biosensing**, and **environmental monitoring**.
+This approach **revalidates** hydrogen bonding as a viable interaction for aqueous molecular recognition, with potential applications in **drug delivery**, **biosensing**, and **environmental monitoring**.
 
 <div class="figure-row">
   <img src="/assets/images/dynamic-synthesis.png" alt="Dynamic Synthesis Scheme" style="max-width: 60%; border-radius: 8px;">
