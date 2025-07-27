@@ -72,7 +72,7 @@ We are grateful for generous funding from the following sponsors, which makes ou
     <p>National Science Foundation-MSN (CHE-2337419)</p>
   </div>
   <div class="funding-logo">
-    <img src="/assets/images/NSF-logo.png" alt="DOE Logo" style="height: 80px;">
+    <img src="/assets/images/NSF-logo.png" alt="NSF Logo" style="height: 80px;">
     <p>National Science Foundation-CBET (ENG-2513233)</p>
   </div>
   <div class="funding-logo">
