@@ -52,7 +52,7 @@ email:
   icon: fa-solid fa-envelope
   text: Email
   tooltip: Email
-  link: mailto:$VALUE
+  link: wenqi@usf.edu
 
 phone:
   icon: fa-solid fa-phone
