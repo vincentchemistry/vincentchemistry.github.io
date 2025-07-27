@@ -39,7 +39,7 @@ This approach reinvigorates hydrogen bonding as a viable interaction for aqueous
 
 ---
 
-## Disease Diagnostics and Therapy Utilizing Synthetic Receptors for Biomolecules
+## Disease Diagnostics and Therapeutics Utilizing Synthetic Receptors for Biomolecules
 
 The ability to selectively recognize biomolecules—such as **carbohydrates**, **lipids**, **peptides**, and **nucleotides**—is vital for understanding biological systems and developing medical diagnostics and therapeutics.
 
