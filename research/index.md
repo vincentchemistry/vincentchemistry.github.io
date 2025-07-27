@@ -21,11 +21,11 @@ Group members receive cross-disciplinary training in chemistry, materials, and b
 
 ## Hydrogen Bonding in Water
 
-Hydrogen bonding is a cornerstone of biological recognition, but replicating its strength and selectivity in aqueous environments remains a major hurdle. In water, solvent molecules compete with receptor–guest interactions, often weakening binding.
+Hydrogen bonding constitutes a fundamental driving force in biological recognition processes. Nevertheless, reproducing its strength and selectivity within aqueous environments continues to pose a considerable challenge. In water, solvent molecules compete for hydrogen bond donors and acceptors on both the receptor and the substrate, thereby effectively disrupting the targeted intermolecular interactions and reducing the overall binding affinity between them.
 
 To address this challenge, we developed **dynamic covalent strategies** that pair imine formation with oxidation to yield macrocyclic and cage-like receptors. These structures are **highly modular**, allowing fine-tuning of **hydrophobic surfaces**, **electrostatics**, and **binding pocket geometry** for optimal function in water.
 
-This approach reinvigorates hydrogen bonding as a viable interaction for aqueous molecular recognition, with potential applications in **drug delivery**, **biosensing**, and **environmental monitoring**.
+This approach revalidates hydrogen bonding as a viable interaction for aqueous molecular recognition, with potential applications in **drug delivery**, **biosensing**, and **environmental monitoring**.
 
 <div class="figure-row">
   <img src="/assets/images/dynamic-synthesis.png" alt="Dynamic Synthesis Scheme" style="max-width: 60%; border-radius: 8px;">
@@ -43,7 +43,7 @@ This approach reinvigorates hydrogen bonding as a viable interaction for aqueous
 
 The ability to selectively recognize biomolecules—such as **carbohydrates**, **lipids**, **peptides**, and **nucleotides**—is vital for understanding biological systems and developing medical diagnostics and therapeutics.
 
-We design synthetic receptors that use **noncovalent complementarity** to differentiate between structurally similar biomolecules. Through thoughtful engineering of recognition motifs, we create systems that mimic biological specificity and function.
+We design synthetic receptors that use **noncovalent complementarity** to selective and effectively bind biomolecules. Through thoughtful engineering of recognition motifs, we create systems that mimic biological specificity and function.
 
 These platforms provide powerful tools for **biological exploration**, **disease detection**, and the development of **next-generation therapeutics**.
 
