@@ -25,8 +25,7 @@
 {% assign description = description | xml_escape %}
 
 {% capture url %}{{ site.url }}{{ site.baseurl }}{% endcapture %}
-
-{% assign icon = "images/icon.png" | file_exists | default: "images/icon.jpg" | relative_url %}
+{% assign icon = "/assets/images/usf-logo.png" | relative_url %}
 {% assign share = "images/share.jpg" | file_exists | default: "images/share.png" | relative_url %}
 {% assign published = page.date | date_to_xmlschema %}
 {% assign updated = page.last_modified_at | date_to_xmlschema %}
@@ -42,7 +41,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 
 <!-- Favicon -->
-<link rel="icon" href="{{ icon }}">
+<link rel="icon" type="image/png" href="{{ icon }}">
 <link rel="apple-touch-icon" href="{{ icon }}">
 
 <!-- Open Graph -->
