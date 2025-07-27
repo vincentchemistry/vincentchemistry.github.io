@@ -6,74 +6,91 @@ nav:
   order: 3
   tooltip: Explore our research
 ---
+
 # Research: Supramolecular Chemistry and Beyond
 
-Molecular recognition is a core process in biology, supporting everything from enzyme activity to cell communication. Our research aims to apply this biological precision to synthetic systems by creating molecular containers—supramolecular structures with confined nanospaces—that can selectively bind substrates with atomic accuracy. These artificial receptors could lead to breakthroughs in catalysis, sensing, materials science, and molecular medicine. Ultimately, our goal is to tackle global challenges in energy sustainability, environmental cleanup, and human health. Grounded in molecular design and synthesis, our work intersects with supramolecular chemistry, organic synthesis, physical chemistry, polymer chemistry, and advanced functional materials. We are especially interested in how noncovalent interactions—like hydrogen bonds, hydrophobic effects, and electrostatic forces—can be used to build complex molecular containers and dynamic systems. By examining these interactions, we learn how subtle structural features influence recognition and emergent properties in both natural and artificial environments. Students in our group will gain interdisciplinary training at the crossroads of chemistry, materials science, and biology, preparing them for careers in academia, industry, government labs, or startups. We invite curious, creative, and motivated individuals to join us in expanding the frontiers of molecular design.
+Molecular recognition lies at the heart of biology, underpinning everything from enzymatic catalysis to cell signaling. Our lab draws inspiration from these natural systems to create **molecular containers**—engineered supramolecular architectures with confined nanospaces that can selectively bind guest molecules with atomic precision.
+
+These synthetic receptors enable a wide range of applications, from **catalysis** and **sensing** to **materials science** and **molecular medicine**. Ultimately, our work addresses pressing global challenges in **energy sustainability**, **environmental remediation**, and **human health**.
+
+Grounded in molecular design and synthesis, our interdisciplinary research spans **supramolecular chemistry**, **organic synthesis**, **physical chemistry**, **polymer science**, and **functional materials**. We are especially intrigued by how noncovalent interactions—such as **hydrogen bonding**, **electrostatics**, and **hydrophobic effects**—can be orchestrated to build dynamic and functional molecular systems.
+
+Group members receive cross-disciplinary training in chemistry, materials, and biology—preparing them for careers in **academia**, **industry**, **startups**, and **government labs**. We welcome curious, creative, and motivated individuals to join us in advancing the frontiers of molecular design.
 
 ---
 
 ## Hydrogen Bonding in Water
 
-Hydrogen bonding is fundamental to molecular recognition in biological systems; however, replicating this selectivity and strength within aqueous environments continues to be a significant challenge for synthetic receptors. Water molecules readily interfere with noncovalent interactions, often outcompeting synthetic receptors for guest molecules. To address this obstacle, we have developed dynamic synthetic strategies that integrate imine formation with imine-to-amide oxidation, creating macrocycles and cages compatible with water. Our approach is modular and scalable, facilitating precise adjustments of hydrophobic domains, charge distributions, and binding pocket geometries. This methodology enables the revalidation of hydrogen bonding in water for the recognition of hydrophilic substrates. The implications of this research are extensive, spanning numerous applications, from drug delivery to environmental sensing.
+Hydrogen bonding is a cornerstone of biological recognition, but replicating its strength and selectivity in aqueous environments remains a major hurdle. In water, solvent molecules compete with receptor–guest interactions, often weakening binding.
+
+To address this, we developed **dynamic covalent strategies** that pair imine formation with oxidation to yield stable macrocyclic and cage-like receptors. These structures are **highly modular**, allowing fine-tuning of **hydrophobic surfaces**, **electrostatics**, and **binding pocket geometry** for optimal function in water.
+
+This approach reinvigorates hydrogen bonding as a viable interaction for aqueous molecular recognition, with potential applications in **drug delivery**, **biosensing**, and **environmental monitoring**.
 
 <div class="figure-row">
   <img src="/assets/images/dynamic-synthesis.png" alt="Dynamic Synthesis Scheme" style="max-width: 60%; border-radius: 8px;">
-  <p class="caption">Figure 1. Dynamic imine synthesis followed by oxidation to access stable hydrogen bonding receptors. [Chem. Eur. J. 2023, 29, e202300524]</p>
+  <p class="caption">Figure 1. Dynamic imine synthesis followed by oxidation yields water-stable hydrogen bonding receptors. [Chem. Eur. J. 2023, 29, e202300524]</p>
 </div>
 
 <div class="figure-row">
-  <img src="/assets/images/oxalate-cage.png" alt="Oxalate-Cage" style="max-width: 60%; border-radius: 8px;">
-  <p class="caption">Figure 2. A hydrogen bonding cage for oxalate binding and oxidation catalysis in water. [Chem. Sci. 2024, 15, 16040]</p>
+  <img src="/assets/images/oxalate-cage.png" alt="Oxalate Cage" style="max-width: 60%; border-radius: 8px;">
+  <p class="caption">Figure 2. A hydrogen bonding cage for oxalate recognition and oxidation catalysis in water. [Chem. Sci. 2024, 15, 16040]</p>
 </div>
 
 ---
 
 ## Synthetic Receptors for Biomolecules
 
-Selective identification of biomolecules—such as carbohydrates, lipids, peptides, and nucleotides—is essential for comprehending biological mechanisms and advancing therapeutic technologies. Our laboratory designs synthetic receptors capable of distinguishing among structurally similar biomolecules through precisely tuned recognition motifs grounded in noncovalent complementarity. By employing strategies rooted in supramolecular chemistry, we have engineered receptors that function as molecular receptors for carbohydrates, lipids, and peptides. These platforms offer innovative tools for exploring biological recognition and hold potential for applications in disease diagnostics, biosensing, and the development of novel therapeutic strategies.
+The ability to selectively recognize biomolecules—such as **carbohydrates**, **lipids**, **peptides**, and **nucleotides**—is vital for understanding biological systems and developing medical diagnostics and therapeutics.
 
+We design synthetic receptors that use **noncovalent complementarity** to differentiate between structurally similar biomolecules. Through thoughtful engineering of recognition motifs, we create systems that mimic biological specificity and function.
+
+These platforms provide powerful tools for **biological exploration**, **disease detection**, and the development of **next-generation therapeutics**.
 
 <div class="figure-row">
-  <img src="/assets/images/glucurona.png" alt="Glucuronate receptor" style="max-width: 60%; border-radius: 8px;">
-  <p class="caption">Figure 3. Synthetic lectin for glucuronate. [ACS Central Science, 2025]</p>
+  <img src="/assets/images/glucurona.png" alt="Glucuronate Receptor" style="max-width: 60%; border-radius: 8px;">
+  <p class="caption">Figure 3. Synthetic lectin for glucuronate recognition. [ACS Central Science, 2025]</p>
 </div>
 
 <div class="figure-row">
-  <img src="/assets/images/glucose.png" alt="Glucose receptor" style="max-width: 60%; border-radius: 8px;">
-  <p class="caption">Figure 4. Synthetic lectin for glucose. [Chem. Sci. 2024, 15, 19588]</p>
+  <img src="/assets/images/glucose.png" alt="Glucose Receptor" style="max-width: 60%; border-radius: 8px;">
+  <p class="caption">Figure 4. Synthetic lectin for glucose binding. [Chem. Sci. 2024, 15, 19588]</p>
 </div>
 
 ---
 
 ## Separation of Noble Metals, Critical Minerals, and High-Energy Materials
 
-The global demand for critical raw materials—such as lithium, rare-earth elements, and platinum-group metals—continues to grow due to their essential roles in renewable energy, electronics, and defense technologies. Efficient and selective separation of these resources from complex mixtures is crucial for enabling a sustainable, circular economy. Our group develops synthetic receptors and ligands that exploit molecular recognition principles to achieve highly selective binding of metal ions under mild, environmentally friendly conditions. We further integrate these receptors into porous materials, polymeric membranes, and solid-state supports to realize practical, scalable separation platforms. Our research in this area contributes to energy security, resource recovery, and environmental remediation, aligning with global initiatives for sustainable materials management and green chemistry.
+Critical materials—like **lithium**, **rare-earth elements**, and **platinum-group metals**—are vital to modern technologies, including **renewable energy**, **electronics**, and **defense systems**. As demand rises, **efficient and selective separation** from complex mixtures becomes increasingly important.
 
+Our group designs synthetic ligands and receptors that target metal ions with high selectivity, even under **mild and sustainable conditions**. We integrate these into **porous solids**, **membranes**, and **solid supports** to create scalable, real-world separation technologies.
+
+This research supports efforts in **resource recovery**, **clean energy**, and **green chemistry**, helping move toward a **sustainable circular economy**.
 
 <div class="figure-row">
-  <img src="/assets/images/cd-gold.png" alt="Selective Separation of Precious Metals" style="max-width: 100%; border-radius: 8px;">
-  <p class="caption">Figure 5. Supramolecular gold recovery. [Nat. Commum. 2023, 14, 1284]</p>
+  <img src="/assets/images/cd-gold.png" alt="Gold Separation" style="max-width: 100%; border-radius: 8px;">
+  <p class="caption">Figure 5. A supramolecular platform for selective gold recovery. [Nat. Commun. 2023, 14, 1284]</p>
 </div>
 
 <div class="figure-row">
-  <img src="/assets/images/Li-receptor.png" alt="High-Energy Material Binding" style="max-width: 60%; border-radius: 8px;">
-  <p class="caption">Figure 6. Lithium receptor. [J. Mater. Chem. A 2023, 11, 12214]</p>
+  <img src="/assets/images/Li-receptor.png" alt="Lithium Receptor" style="max-width: 60%; border-radius: 8px;">
+  <p class="caption">Figure 6. Lithium-selective receptor for high-energy materials. [J. Mater. Chem. A 2023, 11, 12214]</p>
 </div>
 
 ---
 
 ## Research Support
 
-We are grateful for generous funding from the following sponsors, which makes our research possible:
+We are grateful to the following organizations for their generous support:
 
 <div class="funding-logos">
   <div class="funding-logo">
     <img src="/assets/images/nsf-logo.png" alt="NSF Logo" style="height: 80px;">
-    <p>National Science Foundation-MSN (CHE-2337419)</p>
+    <p>National Science Foundation – MSN (CHE-2337419)</p>
   </div>
   <div class="funding-logo">
     <img src="/assets/images/nsf-logo.png" alt="NSF Logo" style="height: 80px;">
-    <p>National Science Foundation-CBET (ENG-2513233)</p>
+    <p>National Science Foundation – CBET (ENG-2513233)</p>
   </div>
   <div class="funding-logo">
     <img src="/assets/images/usf-logo.png" alt="USF Logo" style="height: 80px;">
@@ -106,5 +123,6 @@ We are grateful for generous funding from the following sponsors, which makes ou
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 </style>
