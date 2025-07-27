@@ -76,13 +76,13 @@ orcid:
   icon: fa-brands fa-orcid
   text: ORCID
   tooltip: ORCID
-  link: https://orcid.org/$VALUE
+  link: https://orcid.org/0000-0001-6408-0204
 
 google-scholar:
   icon: fa-brands fa-google
   text: Google Scholar
   tooltip: Google Scholar
-  link: https://scholar.google.com/citations?user=$VALUE
+  link: https://scholar.google.com/citations?user=CRlR3ngAAAAJ&hl=en
 
 github:
   icon: fa-brands fa-github
@@ -94,13 +94,13 @@ twitter:
   icon: fa-brands fa-twitter
   text: Twitter
   tooltip: Twitter
-  link: https://twitter.com/$VALUE
+  link: https://x.com/vincentchem
 
 bluesky:
   icon: fa-brands fa-bluesky
   text: Bluesky
   tooltip: Bluesky
-  link: https://bsky.app/profile/$VALUE
+  link: https://bsky.app/profile/vincentchemistry.bsky.social
 
 facebook:
   icon: fa-brands fa-facebook
