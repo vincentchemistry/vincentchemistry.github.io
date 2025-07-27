@@ -17,12 +17,12 @@ Molecular recognition is a core process in biology, supporting everything from e
 Hydrogen bonding is fundamental to molecular recognition in biological systems; however, replicating this selectivity and strength within aqueous environments continues to be a significant challenge for synthetic receptors. Water molecules readily interfere with noncovalent interactions, often outcompeting synthetic receptors for guest molecules. To address this obstacle, we have developed dynamic synthetic strategies that integrate imine formation with imine-to-amide oxidation, creating macrocycles and cages compatible with water. Our approach is modular and scalable, facilitating precise adjustments of hydrophobic domains, charge distributions, and binding pocket geometries. This methodology enables the revalidation of hydrogen bonding in water for the recognition of hydrophilic substrates. The implications of this research are extensive, spanning numerous applications, from drug delivery to environmental sensing.
 
 <div class="figure-row">
-  <img src="/assets/images/dynamic-synthesis.png" alt="Dynamic Synthesis Scheme" style="max-width: 100%; border-radius: 8px;">
+  <img src="/assets/images/dynamic-synthesis.png" alt="Dynamic Synthesis Scheme" style="max-width: 60%; border-radius: 8px;">
   <p class="caption">Figure 1. Dynamic imine synthesis followed by oxidation to access stable hydrogen bonding receptors. [Chem. Eur. J. 2023, 29, e202300524]</p>
 </div>
 
 <div class="figure-row">
-  <img src="/assets/images/oxalate-cage.png" alt="Oxalate-Cage" style="max-width: 100%; border-radius: 8px;">
+  <img src="/assets/images/oxalate-cage.png" alt="Oxalate-Cage" style="max-width: 60%; border-radius: 8px;">
   <p class="caption">Figure 2. A hydrogen bonding cage for oxalate binding and oxidation catalysis in water. [Chem. Sci. 2024, 15, 16040]</p>
 </div>
 
@@ -34,12 +34,12 @@ Selective identification of biomolecules—such as carbohydrates, lipids, peptid
 
 
 <div class="figure-row">
-  <img src="/assets/images/glucuronate.png" alt="Glucuronate receptor" style="max-width: 100%; border-radius: 8px;">
+  <img src="/assets/images/glucuronate.png" alt="Glucuronate receptor" style="max-width: 60%; border-radius: 8px;">
   <p class="caption">Figure 3. Synthetic lectin for glucuronate. [ACS Central Science, 2025]</p>
 </div>
 
 <div class="figure-row">
-  <img src="/assets/images/glucose.png" alt="Glucose receptor" style="max-width: 100%; border-radius: 8px;">
+  <img src="/assets/images/glucose.png" alt="Glucose receptor" style="max-width: 60%; border-radius: 8px;">
   <p class="caption">Figure 4. Synthetic lectin for glucose. [Chem. Sci. 2024, 15, 19588]</p>
 </div>
 
@@ -56,7 +56,7 @@ The global demand for critical raw materials—such as lithium, rare-earth eleme
 </div>
 
 <div class="figure-row">
-  <img src="/assets/images/Li-receptor.png" alt="High-Energy Material Binding" style="max-width: 100%; border-radius: 8px;">
+  <img src="/assets/images/Li-receptor.png" alt="High-Energy Material Binding" style="max-width: 60%; border-radius: 8px;">
   <p class="caption">Figure 6. Lithium receptor. [J. Mater. Chem. A 2023, 11, 12214]</p>
 </div>
 
