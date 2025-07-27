@@ -45,9 +45,9 @@ Selective identification of biomolecules—such as carbohydrates, lipids, peptid
 
 ---
 
-## Separation of Noble Metals, Critical Minerals, and Energetic Materials
+## Separation of Noble Metals, Critical Minerals, and High-Energy Materials
 
-The global demand for critical raw materials—such as lithium, rare-earth elements, and platinum-group metals—continues to grow due to their essential roles in renewable energy, electronics, and defense technologies. Efficient and selective separation of these resources from complex mixtures is crucial for enabling a sustainable, circular economy. Our group develops synthetic receptors and ligands that exploit molecular recognition principles to achieve highly selective binding of metal ions and energetic anions under mild, environmentally friendly conditions. We further integrate these receptors into porous materials, polymeric membranes, and solid-state supports to realize practical, scalable separation platforms. Our research in this area contributes to energy security, resource recovery, and environmental remediation, aligning with global initiatives for sustainable materials management and green chemistry.
+The global demand for critical raw materials—such as lithium, rare-earth elements, and platinum-group metals—continues to grow due to their essential roles in renewable energy, electronics, and defense technologies. Efficient and selective separation of these resources from complex mixtures is crucial for enabling a sustainable, circular economy. Our group develops synthetic receptors and ligands that exploit molecular recognition principles to achieve highly selective binding of metal ions under mild, environmentally friendly conditions. We further integrate these receptors into porous materials, polymeric membranes, and solid-state supports to realize practical, scalable separation platforms. Our research in this area contributes to energy security, resource recovery, and environmental remediation, aligning with global initiatives for sustainable materials management and green chemistry.
 
 
 <div class="figure-row">
