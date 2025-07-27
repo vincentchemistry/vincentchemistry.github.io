@@ -23,13 +23,13 @@ Group members receive cross-disciplinary training in chemistry, materials, and b
 
 Hydrogen bonding is a cornerstone of biological recognition, but replicating its strength and selectivity in aqueous environments remains a major hurdle. In water, solvent molecules compete with receptor–guest interactions, often weakening binding.
 
-To address this, we developed **dynamic covalent strategies** that pair imine formation with oxidation to yield stable macrocyclic and cage-like receptors. These structures are **highly modular**, allowing fine-tuning of **hydrophobic surfaces**, **electrostatics**, and **binding pocket geometry** for optimal function in water.
+To address this challenge, we developed **dynamic covalent strategies** that pair imine formation with oxidation to yield macrocyclic and cage-like receptors. These structures are **highly modular**, allowing fine-tuning of **hydrophobic surfaces**, **electrostatics**, and **binding pocket geometry** for optimal function in water.
 
 This approach reinvigorates hydrogen bonding as a viable interaction for aqueous molecular recognition, with potential applications in **drug delivery**, **biosensing**, and **environmental monitoring**.
 
 <div class="figure-row">
   <img src="/assets/images/dynamic-synthesis.png" alt="Dynamic Synthesis Scheme" style="max-width: 60%; border-radius: 8px;">
-  <p class="caption">Figure 1. Dynamic imine synthesis followed by oxidation yields water-stable hydrogen bonding receptors. [Chem. Eur. J. 2023, 29, e202300524]</p>
+  <p class="caption">Figure 1. Dynamic imine synthesis followed by oxidation yields water-compatable hydrogen bonding receptors. [Chem. Eur. J. 2023, 29, e202300524]</p>
 </div>
 
 <div class="figure-row">
@@ -39,7 +39,7 @@ This approach reinvigorates hydrogen bonding as a viable interaction for aqueous
 
 ---
 
-## Synthetic Receptors for Biomolecules
+## Disease Diagnostics and Therapy Utilizing Synthetic Receptors for Biomolecules
 
 The ability to selectively recognize biomolecules—such as **carbohydrates**, **lipids**, **peptides**, and **nucleotides**—is vital for understanding biological systems and developing medical diagnostics and therapeutics.
 
@@ -74,7 +74,7 @@ This research supports efforts in **resource recovery**, **clean energy**, and *
 
 <div class="figure-row">
   <img src="/assets/images/Li-receptor.png" alt="Lithium Receptor" style="max-width: 60%; border-radius: 8px;">
-  <p class="caption">Figure 6. Lithium-selective receptor for high-energy materials. [J. Mater. Chem. A 2023, 11, 12214]</p>
+  <p class="caption">Figure 6. Lithium-selective receptor. [J. Mater. Chem. A 2023, 11, 12214]</p>
 </div>
 
 ---
