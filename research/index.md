@@ -34,7 +34,7 @@ Selective identification of biomolecules—such as carbohydrates, lipids, peptid
 
 
 <div class="figure-row">
-  <img src="/assets/images/glucuronate.png" alt="Glucuronate receptor" style="max-width: 60%; border-radius: 8px;">
+  <img src="/assets/images/glucurona.png" alt="Glucuronate receptor" style="max-width: 60%; border-radius: 8px;">
   <p class="caption">Figure 3. Synthetic lectin for glucuronate. [ACS Central Science, 2025]</p>
 </div>
 
