@@ -3,10 +3,11 @@
   {% include verification.html %}
   {% include meta.html %}
 
-  <!-- USF Favicon -->
-<link rel="icon" type="image/png" href="{{ '/assets/images/usf-logo.png?v=5' | relative_url }}">
+  <!-- ✅ USF Favicon setup -->
+  <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/usf-logo.png?v=100' | relative_url }}">
   <link rel="apple-touch-icon" href="{{ '/assets/images/usf-logo.png' | relative_url }}">
-  <meta name="theme-color" content="#006747"> <!-- USF green -->
+  <link rel="shortcut icon" href="{{ '/favicon.ico' | relative_url }}" type="image/x-icon">
 
   {% include fonts.html %}
   {% include styles.html %}
@@ -18,7 +19,4 @@
 
   <!-- Lightbox2 JS -->
   <script src="https://cdn.jsdelivr.net/npm/lightbox2@2/dist/js/lightbox-plus-jquery.min.js"></script>
-
-  <link rel="shortcut icon" type="image/png" href="{{ '/assets/images/usf-logo.png?v=100' | relative_url }}">
-
 </head>
