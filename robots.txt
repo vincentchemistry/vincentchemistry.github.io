@@ -1,1 +1,1 @@
-Sitemap: https://vincentchemistry.github.io/sitemap.xml
+Sitemap: http://www.vincentchemistry.com/sitemap.xml
