@@ -13,7 +13,15 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 200px;
+  min-height: 250px; // ← adjust based on your image
+}
+
+footer > div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
 }
 
 footer a {
