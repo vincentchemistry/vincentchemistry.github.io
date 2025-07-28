@@ -4,7 +4,9 @@
   {% include meta.html %}
 
   <!-- USF Favicon -->
-<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/usf-logo.png?v=2' | relative_url }}">
+  <link rel="icon" type="image/png" href="{{ '/assets/images/usf-logo.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/usf-logo.png' | relative_url }}">
+  <meta name="theme-color" content="#006747"> <!-- USF green -->
 
   {% include fonts.html %}
   {% include styles.html %}
