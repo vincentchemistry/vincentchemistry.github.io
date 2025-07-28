@@ -59,6 +59,8 @@ h3.group-title {
 }
 </style>
 
+[👉 Join Our Group](/team/join-us/)
+
 # Group Members
 
 <div class="people-list">
