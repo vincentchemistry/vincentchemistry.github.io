@@ -4,6 +4,7 @@ title: Members
 permalink: /team/
 nav:
   order: 4
+  has_children: true
   tooltip: Meet the team
 ---
 
