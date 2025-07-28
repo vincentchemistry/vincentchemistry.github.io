@@ -85,15 +85,15 @@ We are grateful to the following organizations for their generous support:
 
 <div class="funding-logos">
   <div class="funding-logo">
-    <img src="/assets/images/nsf-logo.png" alt="NSF Logo" style="height: 80px;">
+    <img src="/assets/images/nsf-logo.png" alt="NSF Logo" style="height: 140px;">
     <p>National Science Foundation – MSN (CHE-2337419)</p>
   </div>
   <div class="funding-logo">
-    <img src="/assets/images/nsf-logo.png" alt="NSF Logo" style="height: 80px;">
+    <img src="/assets/images/nsf-logo.png" alt="NSF Logo" style="height: 140px;">
     <p>National Science Foundation – CBET (ENG-2513233)</p>
   </div>
   <div class="funding-logo">
-    <img src="/assets/images/usf-logo.png" alt="USF Logo" style="height: 80px;">
+    <img src="/assets/images/usf-logo.png" alt="USF Logo" style="height: 140px;">
     <p>University of South Florida</p>
   </div>
 </div>
