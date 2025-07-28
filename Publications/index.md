@@ -113,19 +113,24 @@ function searchPublications() {
       </select>
     </div>
   </div>
-
-  <!-- LOOP THROUGH YAML IN ORIGINAL ORDER -->
+  
+  <!-- LOOP THROUGH YAML -->
   {% assign pubs = site.data.publications %}
   {% for pub in pubs %}
   <div class="publication-entry y{{ pub.year }} {{ pub.topic }}">
     <div class="publication-citation">
       <strong>({{ forloop.length | minus: forloop.index0 }})</strong>
-      {{ pub.authors }} <em>{{ pub.title }}</em>
-      <em>{{ pub.journal }}</em> <strong>{{ pub.year }}</strong>,
+      <em>{{ pub.title }}</em>.
+      {{ pub.authors }}.
+      <em>{{ pub.journal }}</em> <span class="journal-year">{{ pub.year }}</span>,
       <em>{{ pub.volume }}</em>, {{ pub.pages }}.
+      {% if pub.link %}
       <a href="{{ pub.link }}" target="_blank">[Link]</a>
+      {% endif %}
     </div>
+    {% if pub.image %}
     <img class="publication-image" src="{{ pub.image }}" alt="TOC Graphic for {{ pub.title }}">
+    {% endif %}
   </div>
   {% endfor %}
 
