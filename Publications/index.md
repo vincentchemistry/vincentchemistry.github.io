@@ -120,7 +120,7 @@ function searchPublications() {
   <div class="publication-entry y{{ pub.year }} {{ pub.topic }}">
     <div class="publication-citation">
       <strong>({{ forloop.length | minus: forloop.index0 }})</strong>
-      <em>{{ pub.title }}</em>.
+<strong style="font-style: normal;">{{ pub.title }}</strong>.
       {{ pub.authors }}.
       <em>{{ pub.journal }}</em> <span class="journal-year">{{ pub.year }}</span>,
       <em>{{ pub.volume }}</em>, {{ pub.pages }}.
