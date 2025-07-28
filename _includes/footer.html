@@ -1,28 +1,24 @@
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
-  padding: 40px;
-  line-height: var(--spacing);
-  box-shadow: var(--shadow);
-  width: 100%;
-
-  /* ✅ Background image support */
-  background-image: var(--image);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  /* ✅ Force enough height for the background to show */
-  min-height: 250px;
-}
-
-footer > div {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  width: 100%;
-}
+<footer
+  style="
+    background-image: url('/assets/images/usf-logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+  "
+>
+  <div>
+    {% for link in site.links %}
+      {% assign key = link[0] %}
+      {% assign value = link[1] %}
+      {% include button.html type=key text="" link=value style="bare" %}
+    {% endfor %}
+  </div>
+</footer>
