@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://www.vincentchemistry.com/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.vincentchemistry.com/pi /</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vincentchemistry.com/research/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vincentchemistry.com/publications/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vincentchemistry.com/team/</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.vincentchemistry.com/media/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.vincentchemistry.com/outreach/</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.vincentchemistry.com/team/join-us/</loc>
+    <priority>0.5</priority>
+  </url>
+</urlset>
