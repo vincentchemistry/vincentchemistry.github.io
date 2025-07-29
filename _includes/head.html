@@ -8,8 +8,18 @@
     gtag('config', 'G-PVBQDN7NHM');
   </script>
 
-  {% include verification.html %}
-  {% include meta.html %}
+  <!-- ✅ Basic SEO Metadata -->
+  <title>Liu Research Group | Supramolecular Chemistry at USF</title>
+  <meta name="description" content="The Liu Research Group at the University of South Florida focuses on supramolecular chemistry, synthetic receptors, and molecular recognition in water.">
+  <meta name="keywords" content="supramolecular chemistry, synthetic receptors, hydrogen bonding, molecular recognition, Wenqi Liu, University of South Florida">
+  <meta name="author" content="Wenqi Liu">
+
+  <!-- ✅ Open Graph / Social Sharing -->
+  <meta property="og:title" content="Liu Research Group | Supramolecular Chemistry at USF">
+  <meta property="og:description" content="Research in synthetic receptors and molecular recognition at the Liu Lab, USF.">
+  <meta property="og:url" content="https://www.vincentchemistry.com">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.vincentchemistry.com/assets/images/social-preview.png">
 
   <!-- ✅ Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -18,6 +28,9 @@
   <link rel="manifest" href="/site.webmanifest">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 
+  <!-- ✅ Include Custom Files -->
+  {% include verification.html %}
+  {% include meta.html %}
   {% include fonts.html %}
   {% include styles.html %}
 
