@@ -100,10 +100,10 @@ document.addEventListener("DOMContentLoaded", function () {
   <div class="media-header">2025 Outreach Highlights</div>
   <div class="media-grid">
     <div class="media-item">
-      <a href="/assets/media/2025.07.07.png" data-lightbox="group-2025" data-title="2025 USF Outward Bound">
-        <img src="/assets/media/2025.07.07.png" alt="2025 USF Outward Bound" loading="lazy">
+      <a href="/assets/media/2025.07.07.png" data-lightbox="group-2025" data-title="2025 USF Upward Bound">
+        <img src="/assets/media/2025.07.07.png" alt="2025 USF Upward Bound" loading="lazy">
       </a>
-      <h3>2025 USF Outward Bound</h3>
+      <h3>2025 USF Upward Bound</h3>
     </div>
     <div class="media-item">
       <a href="/assets/media/2025.02.08.png" data-lightbox="group-2025" data-title="2025 St. Pete Science Festival">
@@ -119,10 +119,10 @@ document.addEventListener("DOMContentLoaded", function () {
   <div class="media-header">2024 Outreach Highlights</div>
   <div class="media-grid">
     <div class="media-item">
-      <a href="/assets/media/2024.07.01.png" data-lightbox="group-2024" data-title="2024 USF Outward Bound">
-        <img src="/assets/media/2024.07.01.png" alt="2024 USF Outward Bound" loading="lazy">
+      <a href="/assets/media/2024.07.01.png" data-lightbox="group-2024" data-title="2024 USF Upward Bound">
+        <img src="/assets/media/2024.07.01.png" alt="2024 USF Upward Bound" loading="lazy">
       </a>
-      <h3>2024 USF Outward Bound</h3>
+      <h3>2024 USF Upward Bound</h3>
     </div>
     <div class="media-item">
       <a href="/assets/media/2024.04.05.png" data-lightbox="group-2024" data-title="2024 Dunedin Middle School">
