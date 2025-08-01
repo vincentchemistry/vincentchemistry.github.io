@@ -48,7 +48,7 @@ We design synthetic receptors that use **noncovalent complementarity** to select
 These platforms provide powerful tools for **biological exploration**, **disease detection**, and the development of **next-generation therapeutics**.
 
 <div class="figure-row">
-  <img src="/assets/images/glucurona.png" alt="Glucuronate Receptor" style="max-width: 60%; border-radius: 8px;">
+  <img src="/assets/images/glucuronate.png" alt="Glucuronate Receptor" style="max-width: 60%; border-radius: 8px;">
   <p class="caption">Figure 3. Synthetic lectin for glucuronate recognition. [ACS Central Science, 2025]</p>
 </div>
 
