@@ -1,5 +1,20 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1021/acscentsci.5c00951
+  title: A Synthetic Lectin for Glucuronate
+  authors:
+  - Canjia Zhai
+  - Chengkai Xu
+  - Yunpeng Cui
+  - Lukasz Wojtas
+  - Jianfeng Cai
+  - Wenqi Liu
+  publisher: ACS Central Science
+  date: '2025-08-01'
+  link: https://doi.org/g9v266
+  orcid: 0000-0001-6408-0204
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1002/chem.202501400
   title: "Sulfate Recognition in Water via Charge\u2010Assisted Hydrogen Bonding"
   authors:
