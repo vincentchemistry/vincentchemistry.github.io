@@ -59,7 +59,7 @@ These platforms provide powerful tools for **biological exploration**, **disease
 
 ---
 
-## Separation of Noble Metals, Critical Minerals, and High-Energy Materials
+## Separation of Noble Metals, Critical Minerals, and High-Value Energy Materials
 
 Critical materials—like **lithium**, **rare-earth elements**, and **platinum-group metals**—are vital to modern technologies, including **renewable energy**, **electronics**, and **defense systems**. As demand rises, **efficient and selective separation** from complex mixtures becomes increasingly important.
 
