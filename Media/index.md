@@ -137,6 +137,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="media-section">
   <div class="media-header">Journal Covers</div>
   <div class="media-grid">
+     <div class="media-item">
+      <a href="/assets/media/ACS-Cent-Sci.jpg" data-lightbox="cover" data-title="Cover: glucoronate">
+        <img src="/assets/media/ACS-Cent-Sci.jpg" alt="glucoronate" loading="lazy">
+      </a>
+      <h3>Cover: ACS-Cent-Sci-2025</h3>
+    </div>
     <div class="media-item">
       <a href="/assets/media/Trends-Chem.jpg" data-lightbox="cover" data-title="Cover: H-bond">
         <img src="/assets/media/Trends-Chem.jpg" alt="H-bond" loading="lazy">
