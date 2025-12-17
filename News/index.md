@@ -7,6 +7,7 @@ nav:
   tooltip: Latest lab updates
 ---
 # News 🗞️
+- **12‑15‑2025**: Congratulations to **Dexin Liu** and our undergraduate **Andrew Victoria** for their work on shape-shifting tetralactam macrocycles published in *Chem. Eur. J*.
 - **08‑01‑2025**: Congratulations to **Dr. Canjia Zhai** for her work on glucuronate receptor accepted in *ACS Central Science*.
 - **07‑01‑2025**: Our group received an **NSF-CBET funding** supporting research on synthetic receptors for lithium ion.
 - **05‑19‑2025**: Welcome **Angus Rhoton** from Hillsborough Community College to join our group as an REU student.
