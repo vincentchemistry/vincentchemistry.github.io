@@ -1,5 +1,24 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1002/chem.202503496
+  title: "Shape\u2010Shifting Tetralactam Macrocycles: Protonation\u2010Activated\
+    \ Convergent Hydrogen Bonding"
+  authors:
+  - Dexin Liu
+  - Andrew Victoria
+  - Alexander Mariscal
+  - Jay Conces
+  - Sandra Mampilly
+  - Yunpeng Cui
+  - Lukasz Wojtas
+  - Jianfeng Cai
+  - Wenqi Liu
+  publisher: "Chemistry \u2013 A European Journal"
+  date: '2025-12-15'
+  link: https://doi.org/hbfxn9
+  orcid: 0000-0001-6408-0204
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1021/acscentsci.5c00951
   title: A Synthetic Lectin for Glucuronate
   authors:
