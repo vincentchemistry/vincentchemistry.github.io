@@ -7,6 +7,11 @@ nav:
   tooltip: Latest lab updates
 ---
 # News 🗞️
+- **05‑04‑2026**: Dr. Liu has been selected as an awardee for the **CAS‑ORS Conference Presenter Support Program**.
+- **03‑11‑2026**:Congradulations to **Alexander Mariscal** for getting the **Theodore and Venette Askounes Ashford Doctoral Fellowship in Chemistry**.
+- **03‑11‑2026**:Congradulations to our undergraduate **Hector Torres** for getting the **ACS Analytical Chemistry Award**.
+- **03‑11‑2026**:Congradulations to our undergraduate **Haden Fisher** for getting the **Dean Martin Outstanding Chemistry Major, B.S. Award**.
+- **03‑11‑2026**:Congradulations to **Chengkai Xu** for getting the **Alexiou Award in Environmental Chemistry**.
 - **12‑15‑2025**: Congratulations to **Dexin Liu** and our undergraduate **Andrew Victoria** for their work on shape-shifting tetralactam macrocycles published in *Chem. Eur. J*.
 - **08‑01‑2025**: Congratulations to **Dr. Canjia Zhai** for her work on glucuronate receptor accepted in *ACS Central Science*.
 - **07‑01‑2025**: Our group received an **NSF-CBET funding** supporting research on synthetic receptors for lithium ion.
