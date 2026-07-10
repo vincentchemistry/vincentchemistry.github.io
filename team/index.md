@@ -151,7 +151,7 @@ h3.group-title {
 
   <div class="person-row">
     <div class="person-image">
-      <img src="{{ '/assets/images/haden-fisher.jpeg' | relative_url }}" alt="Haden Fisher" />
+      <img src="{{ '/assets/images/angus-rhoton.png' | relative_url }}" alt="Angus Rhoton" />
     </div>
     <div class="person-info">
       <h2>Haden Fisher</h2>
@@ -162,7 +162,7 @@ h3.group-title {
 
   <div class="person-row">
     <div class="person-image">
-      <img src="{{ '/assets/images/hannah-armanious.png' | relative_url }}" alt="Hannah Armanious" />
+      <img src="{{ '/assets/images/minh-huynh.png' | relative_url }}" alt="Minh Huynh" />
     </div>
     <div class="person-info">
       <h2>Hannah Armanious</h2>
