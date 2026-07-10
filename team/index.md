@@ -154,9 +154,9 @@ h3.group-title {
       <img src="{{ '/assets/images/angus-rhoton.png' | relative_url }}" alt="Angus Rhoton" />
     </div>
     <div class="person-info">
-      <h2>Haden Fisher</h2>
+      <h2>Angus Rhoton</h2>
       <p class="position">Undergraduate Researcher</p>
-      <p>USF Chemistry Major<br/>Joined: 2023</p>
+      <p>USF Biomedical Sciences Major<br/>Joined: 2025</p>
     </div>
   </div>
 
@@ -165,9 +165,9 @@ h3.group-title {
       <img src="{{ '/assets/images/minh-huynh.png' | relative_url }}" alt="Minh Huynh" />
     </div>
     <div class="person-info">
-      <h2>Hannah Armanious</h2>
+      <h2="Minh Huynh</h2>
       <p class="position">Undergraduate Researcher</p>
-      <p>USF Chemistry Major<br/>Joined: 2024</p>
+      <p>USF Chemistry Major<br/>Joined: 2026</p>
     </div>
   </div>
 </div>
