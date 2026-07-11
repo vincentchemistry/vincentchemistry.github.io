@@ -162,7 +162,7 @@ h3.group-title {
 
   <div class="person-row">
     <div class="person-image">
-      <img src="{{ '/assets/images/minh-huynh.png' | relative_url }}" alt="Minh Huynh" />
+      <img src="{{ '/assets/images/minh-huynh.jpeg' | relative_url }}" alt="Minh Huynh" />
     </div>
     <div class="person-info">
       <h2="Minh Huynh</h2>
