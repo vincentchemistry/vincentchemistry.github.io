@@ -165,7 +165,7 @@ h3.group-title {
       <img src="{{ '/assets/images/minh-huynh.jpeg' | relative_url }}" alt="Minh Huynh" />
     </div>
     <div class="person-info">
-      <h2=Minh Huynh</h2>
+      <h2>Minh Huynh</h2>
       <p class="position">Undergraduate Researcher</p>
       <p>USF Chemistry Major<br/>Joined: 2026</p>
     </div>
