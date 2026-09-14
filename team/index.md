@@ -133,6 +133,17 @@ h3.group-title {
          M.S. in Chemistry, National Institute of Technology Rourkela, India<br/>Joined: Fall 2022</p>
     </div>
   </div>
+  
+    <div class="person-row">
+    <div class="person-image">
+      <img src="{{ '/assets/images/bingxun-li.jpg' | relative_url }}" alt="Bingxun Li" />
+    </div>
+    <div class="person-info">
+      <h2>Bingxun Li</h2>
+      <p class="position">Graduate Student</p>
+      <p>B.S. in Chemistry, Ohio State University, USA<br/>Joined: Fall 2026</p>
+    </div>
+  </div>
 </div>
 
 <!-- Undergraduate Students -->
