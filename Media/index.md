@@ -100,6 +100,12 @@ document.addEventListener("DOMContentLoaded", function () {
 <div class="media-section">
   <div class="media-header">Group Photos</div>
   <div class="media-grid">
+      <div class="media-item">
+      <a href="/assets/media/08.07.2026.jpeg" data-lightbox="group" data-title="2026 Lubch at Beijing House">
+        <img src="/assets/media/08.07.2026.jpeg" alt="2026 Lunch at Beijing House" loading="lazy">
+      </a>
+       <h3>2026 Lunch at Beijing House</h3>
+      </div>
     <div class="media-item">
       <a href="/assets/media/12.09.2025.png" data-lightbox="group" data-title="2025 Hotpot and Movie">
         <img src="/assets/media/12.09.2025.png" alt="2025 Hotpot and Movie" loading="lazy">
